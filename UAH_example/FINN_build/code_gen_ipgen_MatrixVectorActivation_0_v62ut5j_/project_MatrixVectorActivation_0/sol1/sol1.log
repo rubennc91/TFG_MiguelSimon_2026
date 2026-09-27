@@ -1,0 +1,190 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 10.03 seconds; current allocated memory: 1.469 GB.
+INFO: [HLS 200-10] Analyzing design file '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_v62ut5j_/top_MatrixVectorActivation_0.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.14 seconds. CPU system time: 0.47 seconds. Elapsed time: 5.62 seconds; current allocated memory: 1.477 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'Slice<ap_int<8>, 8u>::Container<ap_uint<64> >::Container(ap_uint<64> const&)' into 'Slice<ap_int<8>, 8u>::Container<ap_uint<64> > Slice<ap_int<8>, 8u>::operator()<ap_uint<64> >(ap_uint<64> const&, unsigned int) const' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp:243:9)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_int<8>, 8u>::Container<ap_uint<64> >::operator()(unsigned int, unsigned int) const' into 'ap_int<17> mac<8u, ap_int<17>, std::array<ap_int<4>, 8ul>, Slice<ap_int<8>, 8u>::Container<ap_uint<64> >, ap_resource_dflt>(ap_int<17> const&, std::array<ap_int<4>, 8ul> const&, Slice<ap_int<8>, 8u>::Container<ap_uint<64> > const&, ap_resource_dflt const&, unsigned int)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp:169:19)
+INFO: [HLS 214-131] Inlining function 'decltype((fp) * (fp0)) mul<ap_int<4>, ap_int<8> >(ap_int<4> const&, ap_int<8> const&, ap_resource_dflt const&)' into 'ap_int<17> mac<8u, ap_int<17>, std::array<ap_int<4>, 8ul>, Slice<ap_int<8>, 8u>::Container<ap_uint<64> >, ap_resource_dflt>(ap_int<17> const&, std::array<ap_int<4>, 8ul> const&, Slice<ap_int<8>, 8u>::Container<ap_uint<64> > const&, ap_resource_dflt const&, unsigned int)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp:169:9)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<4>, 4u>::Container<ap_uint<64> >::operator ap_uint<64> const&() const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:298:17)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<4>, 4u>::Container<ap_uint<64> >::operator()(unsigned int, unsigned int, bool) const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:295:2)
+INFO: [HLS 214-131] Inlining function 'ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >::activate(unsigned int, unsigned int, ap_int<17> const&) const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:295:31)
+INFO: [HLS 214-131] Inlining function 'ap_int<17> mac<8u, ap_int<17>, std::array<ap_int<4>, 8ul>, Slice<ap_int<8>, 8u>::Container<ap_uint<64> >, ap_resource_dflt>(ap_int<17> const&, std::array<ap_int<4>, 8ul> const&, Slice<ap_int<8>, 8u>::Container<ap_uint<64> > const&, ap_resource_dflt const&, unsigned int)' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:285:21)
+INFO: [HLS 214-131] Inlining function 'std::array<ap_int<4>, 8ul> const& Identity::operator()<std::array<ap_int<4>, 8ul> >(std::array<ap_int<4>, 8ul> const&) const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:283:24)
+INFO: [HLS 214-131] Inlining function 'Weights_Tile<8u, ap_int<4>, 16u>::operator[](unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:283:35)
+INFO: [HLS 214-131] Inlining function 'ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >::init(unsigned int, unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:275:27)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_int<8>, 8u>::Container<ap_uint<64> > Slice<ap_int<8>, 8u>::operator()<ap_uint<64> >(ap_uint<64> const&, unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:282:19)
+WARNING: [HLS 214-191] The stream pragma on function argument, in 'call' is unsupported (/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_v62ut5j_/top_MatrixVectorActivation_0.cpp:35:9)
+INFO: [HLS 214-377] Adding 'w' into disaggregation list because there's array-partition pragma applied on the struct field (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:238:9)
+INFO: [HLS 214-377] Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field (/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_v62ut5j_/top_MatrixVectorActivation_0.cpp:37:9)
+INFO: [HLS 214-377] Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field (/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_v62ut5j_/top_MatrixVectorActivation_0.cpp:36:9)
+INFO: [HLS 214-210] Disaggregating variable 'w' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:237:30)
+INFO: [HLS 214-210] Disaggregating variable 'threshs' (/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_v62ut5j_/thresh.h:1:0)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_266_2' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:266:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_273_3' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:273:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_280_4' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:280:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_159_1' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/weights.hpp:159:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_167_1' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp:167:21)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_293_5' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:293:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_216_1' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp:216:20)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_266_2' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:266:23) in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' completely with a factor of 16 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_273_3' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:273:25) in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' completely with a factor of 16 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_280_4' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:280:23) in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' completely with a factor of 16 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_167_1' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp:167:21) in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' completely with a factor of 8 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_159_1' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/weights.hpp:159:23) in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' completely with a factor of 8 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_293_5' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:293:25) in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' completely with a factor of 16 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_216_1' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp:216:20) in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' completely with a factor of 15 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<ap_int<4>, 8ul>::_S_ref(ap_int<4> const (&) [8], unsigned long)' into 'std::array<ap_int<4>, 8ul>::operator[](unsigned long)' (/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/array:186:0)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<ap_int<4>, 8ul>::_S_ref(ap_int<4> const (&) [8], unsigned long)' into 'std::array<ap_int<4>, 8ul>::operator[](unsigned long) const' (/tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/array:190:0)
+INFO: [HLS 214-178] Inlining function 'std::array<ap_int<4>, 8ul>::operator[](unsigned long)' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-178] Inlining function 'std::array<ap_int<4>, 8ul>::operator[](unsigned long) const' into 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZL7threshs': Complete partitioning on dimension 1. Complete partitioning on dimension 3. (/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_v62ut5j_/thresh.h:1:0)
+INFO: [HLS 214-248] Applying array_partition to 'inputBuf': Complete partitioning on dimension 1. (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:231:6)
+INFO: [HLS 214-248] Applying array_partition to 'accu': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:234:33)
+INFO: [HLS 214-364] Automatically inlining function 'ap_int<8> Caster<ap_int<8> >::cast<8>(ap_int<8> const&)' to improve effectiveness of pipeline pragma in function 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp:217:14)
+INFO: [HLS 214-364] Automatically inlining function 'comp::less_equal<ap_int<17>, ap_int<17> >::operator()(ap_int<17> const&, ap_int<17> const&) const' to improve effectiveness of pipeline pragma in function 'void Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>(hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<64>, 0>&, hls::stream<ap_uint<((16u) * (8u)) * (ap_int<4>::width)>, 0>&, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > > const&, int, ap_resource_dflt const&)' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp:218:10)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 14.93 seconds. CPU system time: 0.41 seconds. Elapsed time: 15.33 seconds; current allocated memory: 1.483 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.483 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 1.499 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.15 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 1.512 GB.
+INFO: [XFORM 203-11] Balancing expressions in function 'Matrix_Vector_Activate_Stream_Batch<576u, 256u, 8u, 16u, Slice<ap_int<8>, 8u>, Slice<ap_uint<4>, 4u>, Identity, ap_int<4>, ap_uint<64>, ap_uint<64>, ThresholdsActivation<16u, 16u, 15u, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_dflt>' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:218:21)...464 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.66 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.68 seconds; current allocated memory: 1.554 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.54 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.55 seconds; current allocated memory: 1.574 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MatrixVectorActivation_0' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Matrix_Vector_Activate_Stream_Batch' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_122) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_127) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_120) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_124) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_125) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_114) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_119) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_112) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_116) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_117) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_106) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_111) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_104) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_108) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_109) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_98) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_103) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_96) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_100) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_101) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_90) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_95) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_88) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_92) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_93) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_82) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_87) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_80) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_84) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_85) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_79) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_73) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_72) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_76) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_77) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_71) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_65) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_64) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_68) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_69) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_63) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_57) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_56) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_60) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_61) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_55) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_49) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_48) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_52) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_53) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_47) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_41) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_40) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_44) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_45) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_39) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_33) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_32) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_36) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_37) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_31) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_25) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_24) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_28) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_29) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_23) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_17) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_16) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_20) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_21) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_15) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_9) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_8) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_12) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_13) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_5) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_249_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'VITIS_LOOP_249_1'
+WARNING: [HLS 200-871] Estimated clock period (7.591ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'Matrix_Vector_Activate_Stream_Batch' consists of the following:	'alloca' operation ('nf') [334]  (0 ns)
+	'load' operation ('nf', /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:302) on local variable 'nf' [345]  (0 ns)
+	'add' operation ('nf', /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:302) [3337]  (2.55 ns)
+	'icmp' operation ('icmp_ln302', /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:302) [3338]  (2.47 ns)
+	'select' operation ('nf', /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:302) [3339]  (0.698 ns)
+	'store' operation ('nf_1_write_ln306', /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:306) of variable 'nf', /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:302 on local variable 'nf' [3340]  (1.59 ns)
+	blocking operation 0.28 ns on control path)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 4.51 seconds. CPU system time: 0.04 seconds. Elapsed time: 4.55 seconds; current allocated memory: 1.606 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.11 seconds. CPU system time: 0 seconds. Elapsed time: 1.12 seconds; current allocated memory: 1.621 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MatrixVectorActivation_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.53 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.53 seconds; current allocated memory: 1.621 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.42 seconds. CPU system time: 0 seconds. Elapsed time: 0.42 seconds; current allocated memory: 1.621 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO

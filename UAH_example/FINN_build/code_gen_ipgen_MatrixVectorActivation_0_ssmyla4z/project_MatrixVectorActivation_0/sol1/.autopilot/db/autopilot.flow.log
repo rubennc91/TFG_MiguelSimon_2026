@@ -1,0 +1,102 @@
+INFO-FLOW: Workspace /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1 opened at Tue Jun 16 08:10:57 +0000 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vivado' config_interface -m_axi_latency=0 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+Execute     config_interface -m_axi_latency=0 
+Execute   set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+Execute     create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: /tools/Xilinx/Vitis_HLS/2022.2/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/Vivado/2022.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command     create_platform done; 1.96 sec.
+Execute     source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Command   set_part done; 2.04 sec.
+Execute   config_compile -disable_unroll_code_size_check -pipeline_style flp 
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+Execute   config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+Execute   config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+Execute   config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+Execute   create_clock -period 10.0 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute   csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 10.03 seconds; current allocated memory: 1.469 GB.
+INFO: [HLS 200-10] Analyzing design file '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/top_MatrixVectorActivation_0.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/top_MatrixVectorActivation_0.cpp as C++
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/top_MatrixVectorActivation_0.cpp -foptimization-record-file=/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/top_MatrixVectorActivation_0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /tools/Xilinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -E -std=c++14 -I/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib -I/home/miguel_tfg/FINN-v0.9-Stable/custom_hls -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot -I /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/top_MatrixVectorActivation_0.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/top_MatrixVectorActivation_0.cpp.clang.out.log 2> /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/top_MatrixVectorActivation_0.cpp.clang.err.log 
+Command       ap_eval done; 0.2 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+Execute       set_directive_top MatrixVectorActivation_0 -name=MatrixVectorActivation_0 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source /tools/Xilinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+INFO-FLOW: Source syntax check for synthesis
+Execute       ap_eval exec -ignorestderr /tools/Xilinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/top_MatrixVectorActivation_0.pp.0.cpp -hls-platform-db-name=/tools/Xilinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/clang.out.log 2> /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/project_MatrixVectorActivation_0/sol1/.autopilot/db/clang.err.log 
+Command       ap_eval done; error code: 1; 0.54 sec.
+ERROR: [HLS 207-2163] 'bitwidth' attribute requires integer constant between 1 and 8191 inclusive (/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h:520:35)
+INFO: [HLS 207-4518] in instantiation of template class 'ssdm_int<9216, false>' requested here (/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h:108:29)
+INFO: [HLS 207-4518] in instantiation of template class 'ap_int_base<9216, false>' requested here (/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h:181:18)
+INFO: [HLS 207-4518] in instantiation of template class 'ap_uint<9216>' requested here (/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/top_MatrixVectorActivation_0.cpp:38:1)
+ERROR: [HLS 207-2163] 'bitwidth' attribute requires integer constant between 1 and 8191 inclusive (/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h:521:29)
+ERROR: [HLS 207-2163] 'bitwidth' attribute requires integer constant between 1 and 8191 inclusive (/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h:523:104)
+ERROR: [HLS 207-2163] 'bitwidth' attribute requires integer constant between 1 and 8191 inclusive (/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h:212:114)
+ERROR: [HLS 207-3337] type 'ap_uint<256U * 9U * ap_int<4>::width>' does not provide a call operator (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:268:20)
+INFO: [HLS 207-4235] in instantiation of function template specialization 'Matrix_Vector_Activate_Stream_Batch<576, 256, 9, 256, Slice<ap_int<8>, 8>, Slice<ap_uint<4>, 4>, Identity, ap_int<4>, ap_uint<72>, ap_uint<1024>, ThresholdsActivation<1, 256, 15, ap_int<17>, ap_uint<4>, 0, comp::less_equal<ap_int<17>, ap_int<17> > >, ap_resource_lut>' requested here (/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/top_MatrixVectorActivation_0.cpp:38:1)
+INFO-FLOW: Error in clang_39_open_source : 
+INFO-FLOW: Caught error in elaborate:  
+    while executing
+"ap_compile_CCPP $srcf $skip_transform CFLAGS $skip_cdt $objdir $is_xip"
+    (procedure "AP::ap_compile_one_tu_39" line 48)
+    invoked from within
+"AP::ap_compile_one_tu_39 $srcfile $skip_transform $dbgInfo $skip_cdt "$cflags""
+    ("foreach" body line 10)
+    invoked from within
+"foreach fentry $dut_files {
+        #puts "file: $fentry"
+        set fatt [lindex $fentry 1]
+        array set opt $fatt
+        set srcfile $opt(nam..."
+    (procedure "AP::compile_dut_files_39" line 4)
+    invoked from within
+"AP::compile_dut_files_39 $dut_files $dbgInfo $skip_cdt $skip_transform"
+    (procedure "AP::compile" line 103)
+    invoked from within
+"AP::compile 1 $skip_cdt $skip_transform"
+    (procedure "ap_internal_elaborate" line 83)
+    invoked from within
+"ap_internal_elaborate "
+Command     elaborate done; error code: 2; 0.79 sec.
+INFO-FLOW: Caught error in csynth_design:  
+    while executing
+"ap_internal_csynth_design "
+Command   csynth_design done; error code: 2; 0.79 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0.57 seconds. CPU system time: 0.13 seconds. Elapsed time: 0.79 seconds; current allocated memory: 1.031 MB.
+Command ap_source done; error code: 1; 12.91 sec.
+Execute cleanup_all 

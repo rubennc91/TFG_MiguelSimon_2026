@@ -1,0 +1,1713 @@
+---
+MainSourceFile:  /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          56418
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          263938
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          264381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          264825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          527223
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1636672
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_1:  '
+    FileOffset:      159
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1637247
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_1:  '
+    FileOffset:      76
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1650421
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1650901
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_1:  '
+    FileOffset:      158
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1651978
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_2:  '
+    FileOffset:      159
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1652023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1652762
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_233_1:  '
+    FileOffset:      233
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1653106
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_277_1:  '
+    FileOffset:      277
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1653751
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_2:  '
+    FileOffset:      278
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1653797
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_279_3:  '
+    FileOffset:      279
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1653844
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_279_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_1:  '
+    FileOffset:      333
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1654627
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1655708
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_450_1:  '
+    FileOffset:      450
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1656451
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_450_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_470_2:  '
+    FileOffset:      470
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1656790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_470_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_3:  '
+    FileOffset:      481
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1657125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_535_1:  '
+    FileOffset:      535
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1658197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_535_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_553_2:  '
+    FileOffset:      553
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1658732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_553_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1659441
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_618_1:  '
+    FileOffset:      618
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1659912
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_618_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_648_1:  '
+    FileOffset:      648
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1660479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_648_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_653_2:  '
+    FileOffset:      653
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1660719
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_653_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_691_1:  '
+    FileOffset:      691
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1661528
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_691_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_769_1:  '
+    FileOffset:      769
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1663629
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_769_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_776_2:  '
+    FileOffset:      776
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1663791
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_776_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_792_3:  '
+    FileOffset:      792
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1664056
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_792_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_798_4:  '
+    FileOffset:      798
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1664243
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_798_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_810_5:  '
+    FileOffset:      810
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1664538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_810_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_814_6:  '
+    FileOffset:      814
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1664675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_814_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_850_1:  '
+    FileOffset:      850
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1665228
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_850_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_854_2:  '
+    FileOffset:      854
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1665404
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_854_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_881_1:  '
+    FileOffset:      881
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1665846
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_881_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_885_2:  '
+    FileOffset:      885
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1666018
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_885_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_973_1:  '
+    FileOffset:      973
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1668076
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_973_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_974_2:  '
+    FileOffset:      974
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1668135
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_974_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_996_1:  '
+    FileOffset:      996
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1668538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_996_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_997_2:  '
+    FileOffset:      997
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1668597
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_997_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_1:  '
+    FileOffset:      113
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1670115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_1:  '
+    FileOffset:      140
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1670736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_1:  '
+    FileOffset:      153
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1671153
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1671553
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1672118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1672703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_223_2:  '
+    FileOffset:      223
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1672754
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_223_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_227_3:  '
+    FileOffset:      227
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1672878
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_227_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1944395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1944551
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      74
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      116
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      137
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1947175
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_2:  '
+    FileOffset:      191
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1947254
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1951637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_2:  '
+    FileOffset:      325
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1951714
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1951926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_358_4:  '
+    FileOffset:      358
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1952773
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_358_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_391_5:  '
+    FileOffset:      391
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1953625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_391_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1955948
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_478_2:  '
+    FileOffset:      478
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1956229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_478_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_625_1:  '
+    FileOffset:      625
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1960542
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_625_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_630_2:  '
+    FileOffset:      630
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1960823
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_630_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_636_3:  '
+    FileOffset:      636
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1961014
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_636_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_671_4:  '
+    FileOffset:      671
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1962133
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_671_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_5:  '
+    FileOffset:      704
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1962931
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_780_1:  '
+    FileOffset:      780
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1965017
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_780_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_781_2:  '
+    FileOffset:      781
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1965096
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_781_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_910_1:  '
+    FileOffset:      910
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1969343
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_910_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_2:  '
+    FileOffset:      914
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1969577
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1064_1:  '
+    FileOffset:      1064
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1974983
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1064_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1065_2:  '
+    FileOffset:      1065
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1975060
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1065_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1071_3:  '
+    FileOffset:      1071
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1975272
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1071_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1098_4:  '
+    FileOffset:      1098
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1976119
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1098_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_5:  '
+    FileOffset:      1131
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1976971
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1189_1:  '
+    FileOffset:      1189
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1978205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1191_2:  '
+    FileOffset:      1191
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1978291
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1195_3:  '
+    FileOffset:      1195
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1978518
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1195_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1198_4:  '
+    FileOffset:      1198
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1978707
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1198_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1237_1:  '
+    FileOffset:      1237
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1979495
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1237_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1239_2:  '
+    FileOffset:      1239
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1979581
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1239_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1242_3:  '
+    FileOffset:      1242
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1979767
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1242_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1311_1:  '
+    FileOffset:      1311
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1981626
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1311_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1312_2:  '
+    FileOffset:      1312
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1981705
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1312_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1445_1:  '
+    FileOffset:      1445
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1985964
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1445_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1446_2:  '
+    FileOffset:      1446
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1986043
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1446_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1586_1:  '
+    FileOffset:      1586
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1990292
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1586_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1587_2:  '
+    FileOffset:      1587
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1990371
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1587_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1714_1:  '
+    FileOffset:      1714
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1994119
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1714_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1715_2:  '
+    FileOffset:      1715
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1994198
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1715_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1735_3:  '
+    FileOffset:      1735
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1994683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1735_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1820_1:  '
+    FileOffset:      1820
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1996773
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1820_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1821_2:  '
+    FileOffset:      1821
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1996852
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1821_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1899_1:  '
+    FileOffset:      1899
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1998897
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1899_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1905_2:  '
+    FileOffset:      1905
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          1999120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1905_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1975_1:  '
+    FileOffset:      1975
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2000752
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1975_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1981_2:  '
+    FileOffset:      1981
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2000939
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1981_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_1:  '
+    FileOffset:      2053
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2002586
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2060_2:  '
+    FileOffset:      2060
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2002796
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2060_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2010067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2010159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_3:  '
+    FileOffset:      79
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2010220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_4:  '
+    FileOffset:      80
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2010274
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_5:  '
+    FileOffset:      82
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2010377
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_6:  '
+    FileOffset:      90
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2010538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2010996
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2011589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_2:  '
+    FileOffset:      148
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2011646
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_3:  '
+    FileOffset:      154
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2011791
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_4:  '
+    FileOffset:      155
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2011852
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2011906
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_6:  '
+    FileOffset:      158
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2011972
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_7:  '
+    FileOffset:      161
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2012090
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_8:  '
+    FileOffset:      174
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2012501
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_9:  '
+    FileOffset:      175
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2012576
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2013749
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_257_1:  '
+    FileOffset:      257
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2014812
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_257_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_2:  '
+    FileOffset:      259
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2014890
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_267_3:  '
+    FileOffset:      267
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2015064
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_4:  '
+    FileOffset:      269
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2015120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_5:  '
+    FileOffset:      271
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2015211
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_6:  '
+    FileOffset:      274
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2015323
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_287_7:  '
+    FileOffset:      287
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2015736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_287_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_8:  '
+    FileOffset:      289
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2015814
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_9:  '
+    FileOffset:      301
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2016109
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_332_1:  '
+    FileOffset:      332
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2016659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_332_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2017310
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_368_2:  '
+    FileOffset:      368
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2017366
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_368_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_3:  '
+    FileOffset:      369
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2017429
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_372_4:  '
+    FileOffset:      372
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2017552
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_372_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      415
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2018585
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_2:  '
+    FileOffset:      419
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2018641
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_3:  '
+    FileOffset:      420
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2018704
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_4:  '
+    FileOffset:      424
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2018899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_5:  '
+    FileOffset:      435
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2019343
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_1:  '
+    FileOffset:      481
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2020129
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_483_2:  '
+    FileOffset:      483
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2020207
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_483_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_488_3:  '
+    FileOffset:      488
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2020341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_488_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_491_4:  '
+    FileOffset:      491
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2020504
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_491_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_500_5:  '
+    FileOffset:      500
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2020764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_500_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_6:  '
+    FileOffset:      507
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2020898
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_527_7:  '
+    FileOffset:      527
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2021255
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_527_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_575_1:  '
+    FileOffset:      575
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2021982
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_575_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_582_2:  '
+    FileOffset:      582
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2022140
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_582_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_589_3:  '
+    FileOffset:      589
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2022301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_589_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_4:  '
+    FileOffset:      598
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2022509
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      116
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      142
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2024308
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_1:  '
+    FileOffset:      194
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2024642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2025849
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2026101
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_3:  '
+    FileOffset:      141
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2026159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_150_4:  '
+    FileOffset:      150
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2026335
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_150_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_5:  '
+    FileOffset:      153
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2026435
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_6:  '
+    FileOffset:      164
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2026704
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_7:  '
+    FileOffset:      166
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2026763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_1:  '
+    FileOffset:      249
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2028060
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_2:  '
+    FileOffset:      266
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2028323
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_3:  '
+    FileOffset:      273
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2028485
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2028602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_5:  '
+    FileOffset:      293
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2028904
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_1:  '
+    FileOffset:      90
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2030036
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_2:  '
+    FileOffset:      102
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2030353
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2030498
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_4:  '
+    FileOffset:      111
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2030554
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_5:  '
+    FileOffset:      131
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2031381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2031477
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2032796
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_1:  '
+    FileOffset:      111
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2040496
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_2:  '
+    FileOffset:      117
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2040643
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_3:  '
+    FileOffset:      118
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2040689
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_4:  '
+    FileOffset:      127
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2040865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_5:  '
+    FileOffset:      130
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2040965
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_6:  '
+    FileOffset:      141
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2041214
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_143_7:  '
+    FileOffset:      143
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2041273
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_143_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2042389
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_228_2:  '
+    FileOffset:      228
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2042529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_228_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_3:  '
+    FileOffset:      229
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2042571
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_4:  '
+    FileOffset:      240
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2042854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_5:  '
+    FileOffset:      245
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2042991
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_6:  '
+    FileOffset:      248
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2043088
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_7:  '
+    FileOffset:      259
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2043320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_261_8:  '
+    FileOffset:      261
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2043378
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_261_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2044813
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_85_2:  '
+    FileOffset:      85
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2044860
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_85_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_1:  '
+    FileOffset:      142
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2045847
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_1:  '
+    FileOffset:      174
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/project_FMPadding_Batch_0/sol1/.autopilot/db/top_FMPadding_Batch_0.pp.0.cpp
+        Offset:          2046506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_1: '
+...

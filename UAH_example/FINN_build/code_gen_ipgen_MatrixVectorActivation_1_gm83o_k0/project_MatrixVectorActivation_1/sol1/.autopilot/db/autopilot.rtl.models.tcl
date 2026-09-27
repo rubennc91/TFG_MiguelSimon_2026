@@ -1,0 +1,35 @@
+set SynModuleInfo {
+  {SRCNAME Matrix_Vector_Activate_Stream_Batch MODELNAME Matrix_Vector_Activate_Stream_Batch RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch
+    SUBMODULES {
+      {MODELNAME MatrixVectorActivation_1_mux_325_32_1_1 RTLNAME MatrixVectorActivation_1_mux_325_32_1_1 BINDTYPE op TYPE mux IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mul_4ns_4s_8_1_1 RTLNAME MatrixVectorActivation_1_mul_4ns_4s_8_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mul_4s_4ns_8_1_1 RTLNAME MatrixVectorActivation_1_mul_4s_4ns_8_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mac_muladd_4ns_4s_8s_9_4_1 RTLNAME MatrixVectorActivation_1_mac_muladd_4ns_4s_8s_9_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mac_muladd_4s_4ns_8s_9_4_1 RTLNAME MatrixVectorActivation_1_mac_muladd_4s_4ns_8s_9_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mac_muladd_4ns_4s_9s_10_4_1 RTLNAME MatrixVectorActivation_1_mac_muladd_4ns_4s_9s_10_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mac_muladd_4s_4ns_9s_10_4_1 RTLNAME MatrixVectorActivation_1_mac_muladd_4s_4ns_9s_10_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mac_muladd_4ns_4s_13s_13_4_1 RTLNAME MatrixVectorActivation_1_mac_muladd_4ns_4s_13s_13_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_mac_muladd_4s_4ns_13s_13_4_1 RTLNAME MatrixVectorActivation_1_mac_muladd_4s_4ns_13s_13_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_0_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_0_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_1_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_1_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_2_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_2_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_3_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_3_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_4_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_4_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_5_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_5_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_6_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_6_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_7_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_7_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_8_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_8_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_9_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_9_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_10_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_10_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_11_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_11_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_13_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_13_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_14_ROM_AUTO_1R RTLNAME MatrixVectorActivation_1_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_14_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_1_flow_control_loop_pipe_sequential_init RTLNAME MatrixVectorActivation_1_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME MatrixVectorActivation_1_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME MatrixVectorActivation_1 MODELNAME MatrixVectorActivation_1 RTLNAME MatrixVectorActivation_1 IS_TOP 1
+    SUBMODULES {
+      {MODELNAME MatrixVectorActivation_1_regslice_both RTLNAME MatrixVectorActivation_1_regslice_both BINDTYPE interface TYPE interface_regslice INSTNAME MatrixVectorActivation_1_regslice_both_U}
+    }
+  }
+}

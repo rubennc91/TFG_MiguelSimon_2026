@@ -1,0 +1,19 @@
+set SynModuleInfo {
+  {SRCNAME StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 MODELNAME StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 RTLNAME StreamingMaxPool_Batch_2_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1
+    SUBMODULES {
+      {MODELNAME StreamingMaxPool_Batch_2_flow_control_loop_pipe_sequential_init RTLNAME StreamingMaxPool_Batch_2_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME StreamingMaxPool_Batch_2_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 MODELNAME StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 RTLNAME StreamingMaxPool_Batch_2_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6}
+  {SRCNAME StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 MODELNAME StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 RTLNAME StreamingMaxPool_Batch_2_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8}
+  {SRCNAME {StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>} MODELNAME StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s RTLNAME StreamingMaxPool_Batch_2_StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s
+    SUBMODULES {
+      {MODELNAME StreamingMaxPool_Batch_2_StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s_buf_V_RAM_AUTO_1R1W RTLNAME StreamingMaxPool_Batch_2_StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s_buf_V_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+  {SRCNAME StreamingMaxPool_Batch_2 MODELNAME StreamingMaxPool_Batch_2 RTLNAME StreamingMaxPool_Batch_2 IS_TOP 1
+    SUBMODULES {
+      {MODELNAME StreamingMaxPool_Batch_2_regslice_both RTLNAME StreamingMaxPool_Batch_2_regslice_both BINDTYPE interface TYPE interface_regslice INSTNAME StreamingMaxPool_Batch_2_regslice_both_U}
+    }
+  }
+}

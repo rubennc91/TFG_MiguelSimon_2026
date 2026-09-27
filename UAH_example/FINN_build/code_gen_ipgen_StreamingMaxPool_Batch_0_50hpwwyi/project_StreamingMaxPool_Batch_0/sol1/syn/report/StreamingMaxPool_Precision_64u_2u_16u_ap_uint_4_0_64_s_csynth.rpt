@@ -1,0 +1,271 @@
+
+
+================================================================
+== Vitis HLS Report for 'StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s'
+================================================================
+* Date:           Fri Jun 12 09:17:09 2026
+
+* Version:        2022.2.2 (Build 3779808 on Feb 17 2023)
+* Project:        project_StreamingMaxPool_Batch_0
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.236 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-------+-------+---------+
+    |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
+    |   min   |   max   |    min   |    max   |  min  |  max  |   Type  |
+    +---------+---------+----------+----------+-------+-------+---------+
+    |    17604|    17604|  0.176 ms|  0.176 ms|  17604|  17604|       no|
+    +---------+---------+----------+----------+-------+-------+---------+
+
+    + Detail: 
+        * Instance: 
+        +-----------------------------------------------------------------+------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |                                                                 |                                                      |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+        |                             Instance                            |                        Module                        |   min   |   max   |    min    |    max    | min | max |   Type  |
+        +-----------------------------------------------------------------+------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+        |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_338  |StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1  |       34|       34|   0.340 us|   0.340 us|   34|   34|       no|
+        |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_374  |StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8  |       34|       34|   0.340 us|   0.340 us|   34|   34|       no|
+        |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_396  |StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6  |        4|        4|  40.000 ns|  40.000 ns|    4|    4|       no|
+        +-----------------------------------------------------------------+------------------------------------------------------+---------+---------+-----------+-----------+-----+-----+---------+
+
+        * Loop: 
+        +--------------------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                                      |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |               Loop Name              |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_154_3                    |    17568|    17568|       549|          -|          -|    32|        no|
+        | + VITIS_LOOP_155_4_VITIS_LOOP_156_5  |      512|      512|         8|          -|          -|    64|        no|
+        +--------------------------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     81|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|      88|    700|    -|
+|Memory           |        0|    -|      64|     32|    0|
+|Multiplexer      |        -|    -|       -|   1524|    -|
+|Register         |        -|    -|     118|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|     270|   2337|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|      4|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-----------------------------------------------------------------+------------------------------------------------------+---------+----+----+-----+-----+
+    |                             Instance                            |                        Module                        | BRAM_18K| DSP| FF | LUT | URAM|
+    +-----------------------------------------------------------------+------------------------------------------------------+---------+----+----+-----+-----+
+    |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_338  |StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1  |        0|   0|   8|   51|    0|
+    |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_396  |StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6  |        0|   0|  68|  562|    0|
+    |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_374  |StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8  |        0|   0|  12|   87|    0|
+    +-----------------------------------------------------------------+------------------------------------------------------+---------+----+----+-----+-----+
+    |Total                                                            |                                                      |        0|   0|  88|  700|    0|
+    +-----------------------------------------------------------------+------------------------------------------------------+---------+----+----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    +------------+----------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |   Memory   |                                   Module                                   | BRAM_18K| FF| LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +------------+----------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |buf_V_U     |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_1_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_2_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_3_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_4_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_5_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_6_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_7_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_8_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_9_U   |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_10_U  |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_11_U  |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_12_U  |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_13_U  |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_14_U  |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    |buf_V_15_U  |StreamingMaxPool_Precision_64u_2u_16u_ap_uint_4_0_64_s_buf_V_RAM_AUTO_1R1W  |        0|  4|   2|    0|    32|    4|     1|          128|
+    +------------+----------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |Total       |                                                                            |        0| 64|  32|    0|   512|   64|    16|         2048|
+    +------------+----------------------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |                                 Variable Name                                | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |add_ln155_fu_461_p2                                                           |         +|   0|  0|  14|           7|           1|
+    |add_ln156_fu_505_p2                                                           |         +|   0|  0|  14|           6|           1|
+    |yp_2_fu_449_p2                                                                |         +|   0|  0|  14|           6|           1|
+    |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_374_out_V_TREADY  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln154_fu_443_p2                                                          |      icmp|   0|  0|  10|           6|           7|
+    |icmp_ln155_fu_455_p2                                                          |      icmp|   0|  0|  11|           7|           8|
+    |icmp_ln156_fu_467_p2                                                          |      icmp|   0|  0|  10|           6|           7|
+    |select_ln155_fu_473_p3                                                        |    select|   0|  0|   6|           1|           1|
+    +------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                                                         |          |   0|  0|  81|          40|          27|
+    +------------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------+----+-----------+-----+-----------+
+    |          Name          | LUT| Input Size| Bits| Total Bits|
+    +------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm               |  48|          9|    1|          9|
+    |buf_V_10_address0       |  25|          5|    5|         25|
+    |buf_V_10_ce0            |  25|          5|    1|          5|
+    |buf_V_10_d0             |  20|          4|    4|         16|
+    |buf_V_10_we0            |  20|          4|    1|          4|
+    |buf_V_11_address0       |  25|          5|    5|         25|
+    |buf_V_11_ce0            |  25|          5|    1|          5|
+    |buf_V_11_d0             |  20|          4|    4|         16|
+    |buf_V_11_we0            |  20|          4|    1|          4|
+    |buf_V_12_address0       |  25|          5|    5|         25|
+    |buf_V_12_ce0            |  25|          5|    1|          5|
+    |buf_V_12_d0             |  20|          4|    4|         16|
+    |buf_V_12_we0            |  20|          4|    1|          4|
+    |buf_V_13_address0       |  25|          5|    5|         25|
+    |buf_V_13_ce0            |  25|          5|    1|          5|
+    |buf_V_13_d0             |  20|          4|    4|         16|
+    |buf_V_13_we0            |  20|          4|    1|          4|
+    |buf_V_14_address0       |  25|          5|    5|         25|
+    |buf_V_14_ce0            |  25|          5|    1|          5|
+    |buf_V_14_d0             |  20|          4|    4|         16|
+    |buf_V_14_we0            |  20|          4|    1|          4|
+    |buf_V_15_address0       |  25|          5|    5|         25|
+    |buf_V_15_ce0            |  25|          5|    1|          5|
+    |buf_V_15_d0             |  20|          4|    4|         16|
+    |buf_V_15_we0            |  20|          4|    1|          4|
+    |buf_V_1_address0        |  25|          5|    5|         25|
+    |buf_V_1_ce0             |  25|          5|    1|          5|
+    |buf_V_1_d0              |  20|          4|    4|         16|
+    |buf_V_1_we0             |  20|          4|    1|          4|
+    |buf_V_2_address0        |  25|          5|    5|         25|
+    |buf_V_2_ce0             |  25|          5|    1|          5|
+    |buf_V_2_d0              |  20|          4|    4|         16|
+    |buf_V_2_we0             |  20|          4|    1|          4|
+    |buf_V_3_address0        |  25|          5|    5|         25|
+    |buf_V_3_ce0             |  25|          5|    1|          5|
+    |buf_V_3_d0              |  20|          4|    4|         16|
+    |buf_V_3_we0             |  20|          4|    1|          4|
+    |buf_V_4_address0        |  25|          5|    5|         25|
+    |buf_V_4_ce0             |  25|          5|    1|          5|
+    |buf_V_4_d0              |  20|          4|    4|         16|
+    |buf_V_4_we0             |  20|          4|    1|          4|
+    |buf_V_5_address0        |  25|          5|    5|         25|
+    |buf_V_5_ce0             |  25|          5|    1|          5|
+    |buf_V_5_d0              |  20|          4|    4|         16|
+    |buf_V_5_we0             |  20|          4|    1|          4|
+    |buf_V_6_address0        |  25|          5|    5|         25|
+    |buf_V_6_ce0             |  25|          5|    1|          5|
+    |buf_V_6_d0              |  20|          4|    4|         16|
+    |buf_V_6_we0             |  20|          4|    1|          4|
+    |buf_V_7_address0        |  25|          5|    5|         25|
+    |buf_V_7_ce0             |  25|          5|    1|          5|
+    |buf_V_7_d0              |  20|          4|    4|         16|
+    |buf_V_7_we0             |  20|          4|    1|          4|
+    |buf_V_8_address0        |  25|          5|    5|         25|
+    |buf_V_8_ce0             |  25|          5|    1|          5|
+    |buf_V_8_d0              |  20|          4|    4|         16|
+    |buf_V_8_we0             |  20|          4|    1|          4|
+    |buf_V_9_address0        |  25|          5|    5|         25|
+    |buf_V_9_ce0             |  25|          5|    1|          5|
+    |buf_V_9_d0              |  20|          4|    4|         16|
+    |buf_V_9_we0             |  20|          4|    1|          4|
+    |buf_V_address0          |  25|          5|    5|         25|
+    |buf_V_ce0               |  25|          5|    1|          5|
+    |buf_V_d0                |  20|          4|    4|         16|
+    |buf_V_we0               |  20|          4|    1|          4|
+    |in0_V_TREADY            |   9|          2|    1|          2|
+    |indvar_flatten_reg_316  |   9|          2|    7|         14|
+    |xp_reg_327              |   9|          2|    6|         12|
+    |yp_fu_56                |   9|          2|    6|         12|
+    +------------------------+----+-----------+-----+-----------+
+    |Total                   |1524|        305|  197|        849|
+    +------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +------------------------------------------------------------------------------+---+----+-----+-----------+
+    |                                     Name                                     | FF| LUT| Bits| Const Bits|
+    +------------------------------------------------------------------------------+---+----+-----+-----------+
+    |add_ln155_reg_533                                                             |  7|   0|    7|          0|
+    |add_ln156_reg_623                                                             |  6|   0|    6|          0|
+    |ap_CS_fsm                                                                     |  8|   0|    8|          0|
+    |buf_V_10_load_reg_678                                                         |  4|   0|    4|          0|
+    |buf_V_11_load_reg_683                                                         |  4|   0|    4|          0|
+    |buf_V_12_load_reg_688                                                         |  4|   0|    4|          0|
+    |buf_V_13_load_reg_693                                                         |  4|   0|    4|          0|
+    |buf_V_14_load_reg_698                                                         |  4|   0|    4|          0|
+    |buf_V_15_load_reg_703                                                         |  4|   0|    4|          0|
+    |buf_V_1_load_reg_633                                                          |  4|   0|    4|          0|
+    |buf_V_2_load_reg_638                                                          |  4|   0|    4|          0|
+    |buf_V_3_load_reg_643                                                          |  4|   0|    4|          0|
+    |buf_V_4_load_reg_648                                                          |  4|   0|    4|          0|
+    |buf_V_5_load_reg_653                                                          |  4|   0|    4|          0|
+    |buf_V_6_load_reg_658                                                          |  4|   0|    4|          0|
+    |buf_V_7_load_reg_663                                                          |  4|   0|    4|          0|
+    |buf_V_8_load_reg_668                                                          |  4|   0|    4|          0|
+    |buf_V_9_load_reg_673                                                          |  4|   0|    4|          0|
+    |buf_V_load_reg_628                                                            |  4|   0|    4|          0|
+    |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_338_ap_start_reg  |  1|   0|    1|          0|
+    |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_396_ap_start_reg  |  1|   0|    1|          0|
+    |grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_374_ap_start_reg  |  1|   0|    1|          0|
+    |indvar_flatten_reg_316                                                        |  7|   0|    7|          0|
+    |trunc_ln156_reg_538                                                           |  5|   0|    5|          0|
+    |xp_reg_327                                                                    |  6|   0|    6|          0|
+    |yp_2_reg_525                                                                  |  6|   0|    6|          0|
+    |yp_fu_56                                                                      |  6|   0|    6|          0|
+    +------------------------------------------------------------------------------+---+----+-----+-----------+
+    |Total                                                                         |118|   0|  118|          0|
+    +------------------------------------------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------+-----+-----+------------+-------------------------------------------------------------+--------------+
+|   RTL Ports  | Dir | Bits|  Protocol  |                        Source Object                        |    C Type    |
++--------------+-----+-----+------------+-------------------------------------------------------------+--------------+
+|ap_clk        |   in|    1|  ap_ctrl_hs|  StreamingMaxPool_Precision<64u, 2u, 16u, ap_uint<4>, 0, 64>|  return value|
+|ap_rst        |   in|    1|  ap_ctrl_hs|  StreamingMaxPool_Precision<64u, 2u, 16u, ap_uint<4>, 0, 64>|  return value|
+|ap_start      |   in|    1|  ap_ctrl_hs|  StreamingMaxPool_Precision<64u, 2u, 16u, ap_uint<4>, 0, 64>|  return value|
+|ap_done       |  out|    1|  ap_ctrl_hs|  StreamingMaxPool_Precision<64u, 2u, 16u, ap_uint<4>, 0, 64>|  return value|
+|ap_idle       |  out|    1|  ap_ctrl_hs|  StreamingMaxPool_Precision<64u, 2u, 16u, ap_uint<4>, 0, 64>|  return value|
+|ap_ready      |  out|    1|  ap_ctrl_hs|  StreamingMaxPool_Precision<64u, 2u, 16u, ap_uint<4>, 0, 64>|  return value|
+|in0_V_TDATA   |   in|   64|        axis|                                                        in0_V|       pointer|
+|in0_V_TVALID  |   in|    1|        axis|                                                        in0_V|       pointer|
+|in0_V_TREADY  |  out|    1|        axis|                                                        in0_V|       pointer|
+|out_V_TDATA   |  out|   64|        axis|                                                        out_V|       pointer|
+|out_V_TVALID  |  out|    1|        axis|                                                        out_V|       pointer|
+|out_V_TREADY  |   in|    1|        axis|                                                        out_V|       pointer|
++--------------+-----+-----+------------+-------------------------------------------------------------+--------------+
+

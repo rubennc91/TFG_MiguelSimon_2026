@@ -1,0 +1,5 @@
+7 errors generated.
+Error while processing /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_ConvolutionInputGenerator_1_25m4etj5/project_ConvolutionInputGenerator_1/sol1/.autopilot/db/top_ConvolutionInputGenerator_1.pp.0.cpp.
+clang-tidy applied 186 of 186 suggested fixes.
+Suppressed 200 warnings (200 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

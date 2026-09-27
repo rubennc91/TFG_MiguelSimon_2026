@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Tue Jun 16 08:27:33 2026
+# Process ID: 2831
+# Current directory: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/vivado_stitch_proj_eqmun3br
+# Command line: vivado -mode batch -source make_project.tcl
+# Log file: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/vivado_stitch_proj_eqmun3br/vivado.log
+# Journal file: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/vivado_stitch_proj_eqmun3br/vivado.jou
+# Running On: finn_dev_miguel_tfg, OS: Linux, CPU Frequency: 2256.662 MHz, CPU Physical cores: 24, Host memory: 67180 MB
+#-----------------------------------------------------------
+source make_project.tcl

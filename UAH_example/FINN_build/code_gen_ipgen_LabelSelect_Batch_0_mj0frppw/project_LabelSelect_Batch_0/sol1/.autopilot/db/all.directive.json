@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "LabelSelect_Batch_0",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/miguel_tfg\/FINN-v0.9-Stable\/notebooks\/UAH_example\/FINN_build\/code_gen_ipgen_LabelSelect_Batch_0_mj0frppw\/hls_syn_LabelSelect_Batch_0.tcl",
+          "sourceLine": "29",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "LabelSelect_Batch_0"
+              }]
+          }
+        }]
+    }]}

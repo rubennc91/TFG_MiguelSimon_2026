@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln481_fu_105_p2" SOURCE="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h:481" VARIABLE="icmp_ln481" MODULE="StreamingDataWidthConverter_Batch_0" LOOP="VITIS_LOOP_481_3" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="t_2_fu_111_p2" SOURCE="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h:481" VARIABLE="t_2" MODULE="StreamingDataWidthConverter_Batch_0" LOOP="VITIS_LOOP_481_3" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="i_1_fu_124_p2" SOURCE="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h:488" VARIABLE="i_1" MODULE="StreamingDataWidthConverter_Batch_0" LOOP="VITIS_LOOP_481_3" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln490_fu_130_p2" SOURCE="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h:490" VARIABLE="icmp_ln490" MODULE="StreamingDataWidthConverter_Batch_0" LOOP="VITIS_LOOP_481_3" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+</BindInfo>

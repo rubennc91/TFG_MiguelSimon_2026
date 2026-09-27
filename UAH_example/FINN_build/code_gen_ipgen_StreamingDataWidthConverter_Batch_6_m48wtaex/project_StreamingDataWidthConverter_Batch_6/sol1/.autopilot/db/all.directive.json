@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "StreamingDataWidthConverter_Batch_6",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/miguel_tfg\/FINN-v0.9-Stable\/notebooks\/UAH_example\/FINN_build\/code_gen_ipgen_StreamingDataWidthConverter_Batch_6_m48wtaex\/hls_syn_StreamingDataWidthConverter_Batch_6.tcl",
+          "sourceLine": "29",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "StreamingDataWidthConverter_Batch_6"
+              }]
+          }
+        }]
+    }]}

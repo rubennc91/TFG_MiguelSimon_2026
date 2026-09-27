@@ -1,0 +1,30 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-2163" msg_severity="ERROR" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h:520:35" msg_body="'bitwidth' attribute requires integer constant between 1 and 8191 inclusive">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-4518" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h:108:29" msg_body="in instantiation of template class 'ssdm_int&lt;9216, false&gt;' requested here">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-4518" msg_severity="INFO" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h:181:18" msg_body="in instantiation of template class 'ap_int_base&lt;9216, false&gt;' requested here">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-4518" msg_severity="INFO" msg_loc="/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/top_MatrixVectorActivation_0.cpp:38:1" msg_body="in instantiation of template class 'ap_uint&lt;9216&gt;' requested here">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-2163" msg_severity="ERROR" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h:521:29" msg_body="'bitwidth' attribute requires integer constant between 1 and 8191 inclusive">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-2163" msg_severity="ERROR" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h:523:104" msg_body="'bitwidth' attribute requires integer constant between 1 and 8191 inclusive">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-2163" msg_severity="ERROR" msg_loc="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int.h:212:114" msg_body="'bitwidth' attribute requires integer constant between 1 and 8191 inclusive">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-3337" msg_severity="ERROR" msg_loc="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp:268:20" msg_body="type 'ap_uint&lt;256U * 9U * ap_int&lt;4&gt;::width&gt;' does not provide a call operator">
+        <args/>
+    </msg>
+    <msg msg_groups="" msg_id="207-4235" msg_severity="INFO" msg_loc="/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_0_ssmyla4z/top_MatrixVectorActivation_0.cpp:38:1" msg_body="in instantiation of function template specialization 'Matrix_Vector_Activate_Stream_Batch&lt;576, 256, 9, 256, Slice&lt;ap_int&lt;8&gt;, 8&gt;, Slice&lt;ap_uint&lt;4&gt;, 4&gt;, Identity, ap_int&lt;4&gt;, ap_uint&lt;72&gt;, ap_uint&lt;1024&gt;, ThresholdsActivation&lt;1, 256, 15, ap_int&lt;17&gt;, ap_uint&lt;4&gt;, 0, comp::less_equal&lt;ap_int&lt;17&gt;, ap_int&lt;17&gt; &gt; &gt;, ap_resource_lut&gt;' requested here">
+        <args/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

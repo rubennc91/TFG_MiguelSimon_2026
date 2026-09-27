@@ -1,0 +1,51 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                   Line: 416, Column: 3 }
+Function:        _Z15FMPadding_BatchILj64ELj66ELj1ELj1ELj1ELj1E6ap_intILi8EEEvRN3hls6streamI7ap_uintIXmlT4_srT5_5widthEELi0EEES8_j
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void FMPadding<64u, 66u, 1u, 1u, 1u, 1u, ap_int<8> >(hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                       Line: 373, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void FMPadding_Batch<64u, 66u, 1u, 1u, 1u, 1u, ap_int<8> >(hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, unsigned int)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                       Line: 414, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                   Line: 414, Column: 0 }
+Function:        _Z15FMPadding_BatchILj64ELj66ELj1ELj1ELj1ELj1E6ap_intILi8EEEvRN3hls6streamI7ap_uintIXmlT4_srT5_5widthEELi0EEES8_j
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void FMPadding_nonsquare<66u, 66u, 1u, 1u, 1u, 1u, 1u, 1u, ap_int<8> >(hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                       Line: 273, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void FMPadding_Batch<64u, 66u, 1u, 1u, 1u, 1u, ap_int<8> >(hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, unsigned int)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                       Line: 414, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/top_FMPadding_Batch_0.cpp, 
+                   Line: 23, Column: 0 }
+Function:        _Z17FMPadding_Batch_0RN3hls6streamI7ap_uintILi8EELi0EEES4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void FMPadding_Batch<64u, 66u, 1u, 1u, 1u, 1u, ap_int<8> >(hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, hls::stream<ap_uint<(1u) * (ap_int<8>::width)>, 0>&, unsigned int)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                       Line: 414, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'FMPadding_Batch_0(hls::stream<ap_uint<8>, 0>&, hls::stream<ap_uint<8>, 0>&)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_FMPadding_Batch_0_jgmvdhs3/top_FMPadding_Batch_0.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ''''
+...

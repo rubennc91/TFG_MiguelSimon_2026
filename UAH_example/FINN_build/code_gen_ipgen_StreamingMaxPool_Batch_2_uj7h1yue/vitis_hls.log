@@ -1,0 +1,196 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2.2 (64-bit)
+  **** SW Build 3779808 on Feb 17 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2022.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.2/bin/unwrapped/lnx64.o/vitis_hls'
+/tools/Xilinx/Vitis_HLS/2022.2/tps/tcl/tcl8.5/tzdata/Europe/Dublin can't be opened.
+INFO: [HLS 200-10] For user '' on host 'finn_dev_miguel_tfg' (Linux_x86_64 version 6.8.0-124-generic) on Fri Jun 12 09:15:15 +0000 2026
+INFO: [HLS 200-10] On os Ubuntu 18.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue'
+Sourcing Tcl script '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue/hls_syn_StreamingMaxPool_Batch_2.tcl'
+INFO: [HLS 200-1510] Running: source /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue/hls_syn_StreamingMaxPool_Batch_2.tcl
+HLS project: project_StreamingMaxPool_Batch_2
+HW source dir: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue
+finn-hlslib dir: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib
+custom HLS dir: /home/miguel_tfg/FINN-v0.9-Stable/custom_hls
+INFO: [HLS 200-1510] Running: open_project project_StreamingMaxPool_Batch_2 
+INFO: [HLS 200-10] Creating and opening project '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue/project_StreamingMaxPool_Batch_2'.
+INFO: [HLS 200-1510] Running: add_files /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue/top_StreamingMaxPool_Batch_2.cpp -cflags -std=c++14 -I/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib -I/home/miguel_tfg/FINN-v0.9-Stable/custom_hls 
+INFO: [HLS 200-10] Adding design file '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue/top_StreamingMaxPool_Batch_2.cpp' to the project
+INFO: [HLS 200-1510] Running: set_top StreamingMaxPool_Batch_2 
+INFO: [HLS 200-1510] Running: open_solution sol1 
+INFO: [HLS 200-10] Creating and opening solution '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue/project_StreamingMaxPool_Batch_2/sol1'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+Running Dispatch Server on port: 33631
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0.02 seconds. Elapsed time: 10.02 seconds; current allocated memory: 1.469 GB.
+INFO: [HLS 200-10] Analyzing design file '/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingMaxPool_Batch_2_uj7h1yue/top_StreamingMaxPool_Batch_2.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 3.76 seconds. CPU system time: 0.39 seconds. Elapsed time: 4.15 seconds; current allocated memory: 1.477 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_161_7' is marked as complete unroll implied by the pipeline pragma (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:161:29)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_161_7' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:161:29) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' completely with a factor of 64 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:142:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_175_9' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:175:25) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' completely with a factor of 64 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:142:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_148_2' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:148:23) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' completely with a factor of 64 (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:142:0)
+INFO: [HLS 214-248] Applying array_partition to 'buf': Complete partitioning on dimension 2. (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:145:11)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.25 seconds. CPU system time: 0.33 seconds. Elapsed time: 2.58 seconds; current allocated memory: 1.477 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.477 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 1.483 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 1.490 GB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_147_1' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:147) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_174_8' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:174) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' automatically.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.15 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.16 seconds; current allocated memory: 1.520 GB.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_156_5' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:156:43) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' the outer loop is not a perfect loop.
+Resolution: For help on HLS 200-960 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-960.html
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_155_4' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:155:41) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_154_3' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:154:39) in function 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' more than one sub loop.
+Resolution: For help on HLS 200-960 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-960.html
+INFO: [HLS 200-472] Inferring partial write operation for 'buf.V' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:150:13)
+INFO: [HLS 200-472] Inferring partial write operation for 'buf.V' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:168:27)
+INFO: [HLS 200-472] Inferring partial write operation for 'buf.V' (/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h:181:25)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.12 seconds; current allocated memory: 1.554 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'StreamingMaxPool_Batch_2' ...
+WARNING: [SYN 201-103] Legalizing function name 'StreamingMaxPool_Precision<16u, 2u, 64u, ap_uint<4>, 0, 256>' to 'StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_147_1'.
+WARNING: [HLS 200-1843] Loop 'VITIS_LOOP_147_1' will not be implemented as Flushable(/Unaligned) Pipeline as it has been scheduled as a sequential circuit (II == depth). Changing pipeline style specification to 'style=stp'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_147_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 1.557 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 1.557 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_158_6'.
+WARNING: [HLS 200-1843] Loop 'VITIS_LOOP_158_6' will not be implemented as Flushable(/Unaligned) Pipeline as it has been scheduled as a sequential circuit (II == depth). Changing pipeline style specification to 'style=stp'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'VITIS_LOOP_158_6'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 1.563 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 1.563 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_174_8'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_174_8'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.27 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 1.563 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 1.563 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 1.565 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 1.565 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Batch_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.2 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 1.565 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 1.565 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.19 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 1.565 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 1.572 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.53 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.55 seconds; current allocated memory: 1.586 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s'.
+INFO: [RTMG 210-278] Implementing memory 'StreamingMaxPool_Batch_2_StreamingMaxPool_Precision_16u_2u_64u_ap_uint_4_0_256_s_buf_V_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 1.593 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Batch_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'StreamingMaxPool_Batch_2/in0_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'StreamingMaxPool_Batch_2/out_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'StreamingMaxPool_Batch_2' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Batch_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.31 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.33 seconds; current allocated memory: 1.600 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.4 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.4 seconds; current allocated memory: 1.602 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.23 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.24 seconds; current allocated memory: 1.607 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for StreamingMaxPool_Batch_2.
+INFO: [VLOG 209-307] Generating Verilog RTL for StreamingMaxPool_Batch_2.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 160.36 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 9.38 seconds. CPU system time: 0.84 seconds. Elapsed time: 10.22 seconds; current allocated memory: 140.934 MB.
+INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.2.2 (64-bit)
+  **** SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /tools/Xilinx/Vivado/2022.2/data/boards/board_files/TE0727_10_1C/1.0/board.xml
+Resolution: Check that the file is valid using an XML validation tool such as xmllint.
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - /tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/TE0727_10_1C/1.0/board.xml
+Resolution: Check that the file is valid using an XML validation tool such as xmllint.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 12 09:15:45 2026...
+INFO: [HLS 200-802] Generated output file project_StreamingMaxPool_Batch_2/sol1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 7.76 seconds. CPU system time: 0.73 seconds. Elapsed time: 10.44 seconds; current allocated memory: 6.352 MB.
+INFO: [HLS 200-112] Total CPU user time: 19.09 seconds. Total CPU system time: 2.13 seconds. Total elapsed time: 33.06 seconds; peak allocated memory: 1.613 GB.
+INFO: [Common 17-206] Exiting vitis_hls at Fri Jun 12 09:15:48 2026...
