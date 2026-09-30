@@ -1,3 +1,0 @@
-CSV leido. Numero de filas: 6539
-%Error: /tmp/FINN_build_mlp27k_w4a8_ft_clean/code_gen_ipgen_MatrixVectorActivation_0_bcm0pwkr/project_MatrixVectorActivation_0/sol1/impl/ip/hdl/verilog/MatrixVectorActivation_0_Matrix_Vector_Activate_Batch_weights_30_ROM_AUTO_1R.dat:0: $readmem file not found
-Aborting...

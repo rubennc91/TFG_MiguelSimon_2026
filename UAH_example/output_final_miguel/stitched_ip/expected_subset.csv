@@ -1,6 +1,0 @@
-frame,image,vnorm_qonnx,wnorm_qonnx,raw0_expected,raw1_expected,hw_input_file
-124,124.png,-0.85296005,0.13327500,-128,20,hw_inputs/124.txt
-500,500.png,-0.85296005,0.13327500,-128,20,hw_inputs/500.txt
-1000,1000.png,-0.85296005,0.13327500,-128,20,hw_inputs/1000.txt
-2000,2000.png,-0.85296005,0.13327500,-128,20,hw_inputs/2000.txt
-3000,3000.png,-0.85296005,0.13327500,-128,20,hw_inputs/3000.txt

@@ -1,8 +1,0 @@
-set SynModuleInfo {
-  {SRCNAME StreamingDataWidthConverter_Batch_4 MODELNAME StreamingDataWidthConverter_Batch_4 RTLNAME StreamingDataWidthConverter_Batch_4 IS_TOP 1
-    SUBMODULES {
-      {MODELNAME StreamingDataWidthConverter_Batch_4_regslice_both RTLNAME StreamingDataWidthConverter_Batch_4_regslice_both BINDTYPE interface TYPE interface_regslice INSTNAME StreamingDataWidthConverter_Batch_4_regslice_both_U}
-      {MODELNAME StreamingDataWidthConverter_Batch_4_flow_control_loop_pipe_no_ap_cont RTLNAME StreamingDataWidthConverter_Batch_4_flow_control_loop_pipe_no_ap_cont BINDTYPE interface TYPE internal_upc_flow_control INSTNAME StreamingDataWidthConverter_Batch_4_flow_control_loop_pipe_no_ap_cont_U}
-    }
-  }
-}

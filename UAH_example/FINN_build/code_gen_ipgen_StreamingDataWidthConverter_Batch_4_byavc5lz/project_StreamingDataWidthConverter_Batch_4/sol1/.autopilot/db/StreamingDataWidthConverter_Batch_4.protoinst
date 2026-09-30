@@ -1,9 +1,0 @@
-{
-	"version": "1.0",
-	"modules": {
-		"StreamingDataWidthConverter_Batch_4": {
-			"proto_instances": {
-			}
-		}
-	}
-}

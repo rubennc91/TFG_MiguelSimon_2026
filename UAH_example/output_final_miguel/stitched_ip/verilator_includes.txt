@@ -1,5 +1,0 @@
--I./finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/17b6/hdl/verilog
--I./finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/2f51/hdl/verilog
--I./finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/6033/hdl/verilog
--I./finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/8713/hdl
--I./finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/c581/hdl/verilog
