@@ -1,0 +1,755 @@
+CSV leido. Numero de filas: 6539
+[INPUT] bytes aceptados = 576 ciclos_envio = 576 early_outputs = 0
+Frame 0 | CSV v=5.00000 w=-0.22540 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=26629
+[INPUT] bytes aceptados = 576 ciclos_envio = 576 early_outputs = 1
+Frame 1 | CSV v=5.00000 w=-0.21315 | raw0=59 raw1=12 raw2=0 | out_word=3131 out12_0=3131 out12_1=0 | v(raw0)=2.54667 v(raw1)=0.04000 v(raw2)=-0.60000 | w(raw0)=-1.68784 w(raw1)=-2.84591 w(raw2)=-3.14159 | usado FINN v=2.54667 w=-2.84591 ciclos=576
+[INPUT] bytes aceptados = 576 ciclos_envio = 18320 early_outputs = 0
+Frame 2 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=26053
+[INPUT] bytes aceptados = 576 ciclos_envio = 10711 early_outputs = 1
+Frame 3 | CSV v=5.00000 w=-0.21315 | raw0=59 raw1=12 raw2=0 | out_word=3131 out12_0=3131 out12_1=0 | v(raw0)=2.54667 v(raw1)=0.04000 v(raw2)=-0.60000 | w(raw0)=-1.68784 w(raw1)=-2.84591 w(raw2)=-3.14159 | usado FINN v=2.54667 w=-2.84591 ciclos=10711
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 4 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 5 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 6 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 7 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 8 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 9 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 10 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 11 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 12 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 13 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 14 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 15 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 16 | CSV v=5.00000 w=-0.21315 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 17 | CSV v=5.00000 w=-0.19935 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 18 | CSV v=5.00000 w=-0.20010 | raw0=119 raw1=8 raw2=0 | out_word=2167 out12_0=2167 out12_1=0 | v(raw0)=5.74667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.20944 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.74667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 19 | CSV v=5.00000 w=-0.18170 | raw0=117 raw1=8 raw2=0 | out_word=2165 out12_0=2165 out12_1=0 | v(raw0)=5.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.25872 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 20 | CSV v=5.00000 w=-0.16890 | raw0=117 raw1=8 raw2=0 | out_word=2165 out12_0=2165 out12_1=0 | v(raw0)=5.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.25872 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 21 | CSV v=5.00000 w=-0.16965 | raw0=115 raw1=8 raw2=0 | out_word=2163 out12_0=2163 out12_1=0 | v(raw0)=5.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.30800 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 22 | CSV v=5.00000 w=-0.14665 | raw0=123 raw1=8 raw2=0 | out_word=2171 out12_0=2171 out12_1=0 | v(raw0)=5.96000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.11088 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.96000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 23 | CSV v=5.00000 w=-0.12950 | raw0=123 raw1=8 raw2=0 | out_word=2171 out12_0=2171 out12_1=0 | v(raw0)=5.96000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.11088 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.96000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 24 | CSV v=5.00000 w=-0.13050 | raw0=127 raw1=8 raw2=0 | out_word=2175 out12_0=2175 out12_1=0 | v(raw0)=6.17333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.01232 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=6.17333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 25 | CSV v=5.00000 w=-0.10750 | raw0=120 raw1=8 raw2=0 | out_word=2168 out12_0=2168 out12_1=0 | v(raw0)=5.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.18480 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 26 | CSV v=5.00000 w=-0.09075 | raw0=120 raw1=8 raw2=0 | out_word=2168 out12_0=2168 out12_1=0 | v(raw0)=5.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=-0.18480 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=5.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 27 | CSV v=5.00000 w=-0.09200 | raw0=134 raw1=8 raw2=0 | out_word=2182 out12_0=2182 out12_1=0 | v(raw0)=6.54667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.16016 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=6.54667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 28 | CSV v=5.00000 w=-0.06775 | raw0=132 raw1=8 raw2=0 | out_word=2180 out12_0=2180 out12_1=0 | v(raw0)=6.44000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.11088 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=6.44000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 29 | CSV v=5.00000 w=-0.06900 | raw0=132 raw1=8 raw2=0 | out_word=2180 out12_0=2180 out12_1=0 | v(raw0)=6.44000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.11088 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=6.44000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 30 | CSV v=5.00000 w=-0.06900 | raw0=143 raw1=8 raw2=0 | out_word=2191 out12_0=2191 out12_1=0 | v(raw0)=7.02667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.38192 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.02667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 31 | CSV v=5.00000 w=-0.04475 | raw0=143 raw1=8 raw2=0 | out_word=2191 out12_0=2191 out12_1=0 | v(raw0)=7.02667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.38192 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.02667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 32 | CSV v=5.00000 w=-0.04600 | raw0=143 raw1=8 raw2=0 | out_word=2191 out12_0=2191 out12_1=0 | v(raw0)=7.02667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.38192 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.02667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 33 | CSV v=5.00000 w=-0.02660 | raw0=144 raw1=8 raw2=0 | out_word=2192 out12_0=2192 out12_1=0 | v(raw0)=7.08000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.40656 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.08000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 34 | CSV v=5.00000 w=-0.02760 | raw0=144 raw1=8 raw2=0 | out_word=2192 out12_0=2192 out12_1=0 | v(raw0)=7.08000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.40656 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.08000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 35 | CSV v=5.00000 w=-0.00820 | raw0=142 raw1=8 raw2=0 | out_word=2190 out12_0=2190 out12_1=0 | v(raw0)=6.97333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.35728 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=6.97333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 36 | CSV v=5.00000 w=-0.00920 | raw0=142 raw1=8 raw2=0 | out_word=2190 out12_0=2190 out12_1=0 | v(raw0)=6.97333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.35728 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=6.97333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 37 | CSV v=5.00000 w=0.01650 | raw0=152 raw1=8 raw2=0 | out_word=2200 out12_0=2200 out12_1=0 | v(raw0)=7.50667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.60368 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.50667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 38 | CSV v=5.00000 w=0.01500 | raw0=152 raw1=8 raw2=0 | out_word=2200 out12_0=2200 out12_1=0 | v(raw0)=7.50667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.60368 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.50667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 39 | CSV v=5.00000 w=0.03620 | raw0=154 raw1=8 raw2=0 | out_word=2202 out12_0=2202 out12_1=0 | v(raw0)=7.61333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.65296 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.61333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 40 | CSV v=5.00000 w=0.03500 | raw0=154 raw1=8 raw2=0 | out_word=2202 out12_0=2202 out12_1=0 | v(raw0)=7.61333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.65296 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.61333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 41 | CSV v=5.00000 w=0.05090 | raw0=160 raw1=8 raw2=0 | out_word=2208 out12_0=2208 out12_1=0 | v(raw0)=7.93333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.80080 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.93333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 42 | CSV v=5.00000 w=0.05000 | raw0=160 raw1=8 raw2=0 | out_word=2208 out12_0=2208 out12_1=0 | v(raw0)=7.93333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.80080 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.93333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 43 | CSV v=5.00000 w=0.06590 | raw0=164 raw1=8 raw2=0 | out_word=2212 out12_0=2212 out12_1=0 | v(raw0)=8.14667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.89936 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.14667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 44 | CSV v=5.00000 w=0.06500 | raw0=164 raw1=8 raw2=0 | out_word=2212 out12_0=2212 out12_1=0 | v(raw0)=8.14667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.89936 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.14667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 45 | CSV v=5.00000 w=0.07560 | raw0=161 raw1=8 raw2=0 | out_word=2209 out12_0=2209 out12_1=0 | v(raw0)=7.98667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.82544 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.98667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 46 | CSV v=5.00000 w=0.07500 | raw0=161 raw1=8 raw2=0 | out_word=2209 out12_0=2209 out12_1=0 | v(raw0)=7.98667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.82544 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=7.98667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 47 | CSV v=5.00000 w=0.08560 | raw0=168 raw1=8 raw2=0 | out_word=2216 out12_0=2216 out12_1=0 | v(raw0)=8.36000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.99792 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.36000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 48 | CSV v=5.00000 w=0.08500 | raw0=168 raw1=8 raw2=0 | out_word=2216 out12_0=2216 out12_1=0 | v(raw0)=8.36000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.99792 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.36000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 49 | CSV v=5.00000 w=0.09030 | raw0=164 raw1=8 raw2=0 | out_word=2212 out12_0=2212 out12_1=0 | v(raw0)=8.14667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.89936 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.14667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 50 | CSV v=5.00000 w=0.09000 | raw0=164 raw1=8 raw2=0 | out_word=2212 out12_0=2212 out12_1=0 | v(raw0)=8.14667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=0.89936 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.14667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 51 | CSV v=5.00000 w=0.09530 | raw0=170 raw1=8 raw2=0 | out_word=2218 out12_0=2218 out12_1=0 | v(raw0)=8.46667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.04720 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.46667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 52 | CSV v=5.00000 w=0.09500 | raw0=170 raw1=8 raw2=0 | out_word=2218 out12_0=2218 out12_1=0 | v(raw0)=8.46667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.04720 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.46667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 53 | CSV v=5.00000 w=0.10030 | raw0=171 raw1=8 raw2=0 | out_word=2219 out12_0=2219 out12_1=0 | v(raw0)=8.52000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.07184 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.52000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 54 | CSV v=5.00000 w=0.10000 | raw0=171 raw1=8 raw2=0 | out_word=2219 out12_0=2219 out12_1=0 | v(raw0)=8.52000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.07184 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.52000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 55 | CSV v=5.00000 w=0.10000 | raw0=176 raw1=8 raw2=0 | out_word=2224 out12_0=2224 out12_1=0 | v(raw0)=8.78667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.19504 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.78667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 56 | CSV v=5.00000 w=0.10000 | raw0=176 raw1=8 raw2=0 | out_word=2224 out12_0=2224 out12_1=0 | v(raw0)=8.78667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.19504 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.78667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 57 | CSV v=5.00000 w=0.10000 | raw0=173 raw1=8 raw2=0 | out_word=2221 out12_0=2221 out12_1=0 | v(raw0)=8.62667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.12112 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.62667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 58 | CSV v=5.00000 w=0.10000 | raw0=173 raw1=8 raw2=0 | out_word=2221 out12_0=2221 out12_1=0 | v(raw0)=8.62667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.12112 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.62667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 59 | CSV v=13.00000 w=0.05400 | raw0=175 raw1=8 raw2=0 | out_word=2223 out12_0=2223 out12_1=0 | v(raw0)=8.73333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.17040 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.73333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 60 | CSV v=13.00000 w=0.05400 | raw0=175 raw1=8 raw2=0 | out_word=2223 out12_0=2223 out12_1=0 | v(raw0)=8.73333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.17040 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.73333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 61 | CSV v=13.00000 w=0.05105 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 62 | CSV v=13.00000 w=0.05130 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 63 | CSV v=13.00000 w=0.05130 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 64 | CSV v=13.00000 w=0.05130 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 65 | CSV v=13.00000 w=0.07195 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 66 | CSV v=13.00000 w=0.07020 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 67 | CSV v=5.00000 w=0.16180 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 68 | CSV v=5.00000 w=0.16000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 69 | CSV v=5.00000 w=0.19180 | raw0=179 raw1=8 raw2=0 | out_word=2227 out12_0=2227 out12_1=0 | v(raw0)=8.94667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.26896 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.94667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 70 | CSV v=5.00000 w=0.19000 | raw0=179 raw1=8 raw2=0 | out_word=2227 out12_0=2227 out12_1=0 | v(raw0)=8.94667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.26896 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.94667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 71 | CSV v=5.00000 w=0.21120 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 72 | CSV v=5.00000 w=0.21000 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 73 | CSV v=5.00000 w=0.19940 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 74 | CSV v=5.00000 w=0.20000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 75 | CSV v=5.00000 w=0.18940 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 76 | CSV v=5.00000 w=0.19000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 77 | CSV v=5.00000 w=0.18470 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 78 | CSV v=5.00000 w=0.18500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 79 | CSV v=5.00000 w=0.17440 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 80 | CSV v=5.00000 w=0.17500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 81 | CSV v=5.00000 w=0.16970 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 82 | CSV v=5.00000 w=0.17000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 83 | CSV v=5.00000 w=0.16470 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 84 | CSV v=5.00000 w=0.16500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 85 | CSV v=5.00000 w=0.15970 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 86 | CSV v=5.00000 w=0.16000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 87 | CSV v=5.00000 w=0.15470 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 88 | CSV v=5.00000 w=0.15500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 89 | CSV v=5.00000 w=0.15500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 90 | CSV v=5.00000 w=0.15500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 91 | CSV v=5.00000 w=0.14970 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 92 | CSV v=5.00000 w=0.15000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 93 | CSV v=5.00000 w=0.15000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 94 | CSV v=5.00000 w=0.15000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 95 | CSV v=5.00000 w=0.14470 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 96 | CSV v=5.00000 w=0.14500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 97 | CSV v=5.00000 w=0.14500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 98 | CSV v=5.00000 w=0.14500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 99 | CSV v=5.00000 w=0.13970 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 100 | CSV v=5.00000 w=0.14000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 101 | CSV v=5.00000 w=0.14000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 102 | CSV v=5.00000 w=0.14000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 103 | CSV v=5.00000 w=0.13470 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 104 | CSV v=5.00000 w=0.13500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 105 | CSV v=5.00000 w=0.13500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 106 | CSV v=5.00000 w=0.13500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 107 | CSV v=5.00000 w=0.13500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 108 | CSV v=5.00000 w=0.13500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 109 | CSV v=5.00000 w=0.12970 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 110 | CSV v=5.00000 w=0.13000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 111 | CSV v=5.00000 w=0.13000 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 112 | CSV v=5.00000 w=0.13000 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 113 | CSV v=5.00000 w=0.13000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 114 | CSV v=5.00000 w=0.13000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 115 | CSV v=5.00000 w=0.13000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 116 | CSV v=5.00000 w=0.13000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 117 | CSV v=5.00000 w=0.12470 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 118 | CSV v=5.00000 w=0.12500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 119 | CSV v=5.00000 w=0.12500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 120 | CSV v=5.00000 w=0.12500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 121 | CSV v=5.00000 w=0.12500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 122 | CSV v=5.00000 w=0.12500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 123 | CSV v=5.00000 w=0.12500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 124 | CSV v=5.00000 w=0.12500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 125 | CSV v=5.00000 w=0.12500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 126 | CSV v=5.00000 w=0.12500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 127 | CSV v=5.00000 w=0.11970 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 128 | CSV v=5.00000 w=0.12000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 129 | CSV v=5.00000 w=0.12000 | raw0=192 raw1=8 raw2=0 | out_word=2240 out12_0=2240 out12_1=0 | v(raw0)=9.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.58928 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 130 | CSV v=5.00000 w=0.12000 | raw0=192 raw1=8 raw2=0 | out_word=2240 out12_0=2240 out12_1=0 | v(raw0)=9.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.58928 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 131 | CSV v=5.00000 w=0.12000 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 132 | CSV v=5.00000 w=0.12000 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 133 | CSV v=5.00000 w=0.12000 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 134 | CSV v=5.00000 w=0.12000 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 135 | CSV v=5.00000 w=0.12000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 136 | CSV v=5.00000 w=0.12000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 137 | CSV v=5.00000 w=0.11470 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 138 | CSV v=5.00000 w=0.11500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 139 | CSV v=5.00000 w=0.11500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 140 | CSV v=5.00000 w=0.11500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 141 | CSV v=5.00000 w=0.11500 | raw0=192 raw1=8 raw2=0 | out_word=2240 out12_0=2240 out12_1=0 | v(raw0)=9.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.58928 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 142 | CSV v=5.00000 w=0.11500 | raw0=192 raw1=8 raw2=0 | out_word=2240 out12_0=2240 out12_1=0 | v(raw0)=9.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.58928 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 143 | CSV v=5.00000 w=0.11500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 144 | CSV v=5.00000 w=0.11500 | raw0=190 raw1=8 raw2=0 | out_word=2238 out12_0=2238 out12_1=0 | v(raw0)=9.53333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.54000 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.53333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 145 | CSV v=5.00000 w=0.11500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 146 | CSV v=5.00000 w=0.11500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 147 | CSV v=5.00000 w=0.11500 | raw0=192 raw1=8 raw2=0 | out_word=2240 out12_0=2240 out12_1=0 | v(raw0)=9.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.58928 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 148 | CSV v=5.00000 w=0.11500 | raw0=192 raw1=8 raw2=0 | out_word=2240 out12_0=2240 out12_1=0 | v(raw0)=9.64000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.58928 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.64000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 149 | CSV v=5.00000 w=0.11500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 150 | CSV v=5.00000 w=0.11500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 151 | CSV v=5.00000 w=0.11500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 152 | CSV v=5.00000 w=0.11500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 153 | CSV v=5.00000 w=0.10970 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 154 | CSV v=5.00000 w=0.11000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 155 | CSV v=5.00000 w=0.11000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 156 | CSV v=5.00000 w=0.11000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 157 | CSV v=5.00000 w=0.11000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 158 | CSV v=5.00000 w=0.11000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 159 | CSV v=5.00000 w=0.11000 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 160 | CSV v=5.00000 w=0.11000 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 161 | CSV v=5.00000 w=0.11000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 162 | CSV v=5.00000 w=0.11000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 163 | CSV v=5.00000 w=0.11000 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 164 | CSV v=5.00000 w=0.11000 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 165 | CSV v=5.00000 w=0.11000 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 166 | CSV v=5.00000 w=0.11000 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 167 | CSV v=5.00000 w=0.11000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 168 | CSV v=5.00000 w=0.11000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 169 | CSV v=5.00000 w=0.10470 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 170 | CSV v=5.00000 w=0.10500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 171 | CSV v=5.00000 w=0.10500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 172 | CSV v=5.00000 w=0.10500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 173 | CSV v=5.00000 w=0.10500 | raw0=193 raw1=8 raw2=0 | out_word=2241 out12_0=2241 out12_1=0 | v(raw0)=9.69333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.61392 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.69333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 174 | CSV v=5.00000 w=0.10500 | raw0=193 raw1=8 raw2=0 | out_word=2241 out12_0=2241 out12_1=0 | v(raw0)=9.69333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.61392 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.69333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 175 | CSV v=5.00000 w=0.10500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 176 | CSV v=5.00000 w=0.10500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 177 | CSV v=5.00000 w=0.10500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 178 | CSV v=5.00000 w=0.10500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 179 | CSV v=5.00000 w=0.10500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 180 | CSV v=5.00000 w=0.10500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 181 | CSV v=5.00000 w=0.10500 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 182 | CSV v=5.00000 w=0.10500 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 183 | CSV v=5.00000 w=0.10500 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 184 | CSV v=5.00000 w=0.10500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 185 | CSV v=5.00000 w=0.10500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 186 | CSV v=5.00000 w=0.10500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 187 | CSV v=5.00000 w=0.10500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 188 | CSV v=5.00000 w=0.10500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 189 | CSV v=5.00000 w=0.10500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 190 | CSV v=5.00000 w=0.09970 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 191 | CSV v=5.00000 w=0.10000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 192 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 193 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 194 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 195 | CSV v=5.00000 w=0.10000 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 196 | CSV v=5.00000 w=0.10000 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 197 | CSV v=5.00000 w=0.10000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 198 | CSV v=5.00000 w=0.10000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 199 | CSV v=5.00000 w=0.10000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 200 | CSV v=5.00000 w=0.10000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 201 | CSV v=5.00000 w=0.10000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 202 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 203 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 204 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 205 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 206 | CSV v=5.00000 w=0.10000 | raw0=195 raw1=8 raw2=0 | out_word=2243 out12_0=2243 out12_1=0 | v(raw0)=9.80000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.66320 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.80000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 207 | CSV v=5.00000 w=0.10000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 208 | CSV v=5.00000 w=0.10000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 209 | CSV v=5.00000 w=0.10000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 210 | CSV v=5.00000 w=0.10000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 211 | CSV v=5.00000 w=0.10000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 212 | CSV v=5.00000 w=0.10000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 213 | CSV v=5.00000 w=0.10000 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 214 | CSV v=5.00000 w=0.09470 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 215 | CSV v=5.00000 w=0.09500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 216 | CSV v=5.00000 w=0.09500 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 217 | CSV v=5.00000 w=0.09500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 218 | CSV v=5.00000 w=0.09500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 219 | CSV v=5.00000 w=0.09500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 220 | CSV v=5.00000 w=0.09500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 221 | CSV v=5.00000 w=0.09500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 222 | CSV v=5.00000 w=0.09500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 223 | CSV v=5.00000 w=0.09500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 224 | CSV v=5.00000 w=0.09500 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 225 | CSV v=5.00000 w=0.09500 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 226 | CSV v=5.00000 w=0.09500 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 227 | CSV v=5.00000 w=0.09500 | raw0=191 raw1=8 raw2=0 | out_word=2239 out12_0=2239 out12_1=0 | v(raw0)=9.58667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.56464 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.58667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 228 | CSV v=5.00000 w=0.09500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 229 | CSV v=5.00000 w=0.09500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 230 | CSV v=5.00000 w=0.09500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 231 | CSV v=5.00000 w=0.09500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 232 | CSV v=5.00000 w=0.09500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 233 | CSV v=5.00000 w=0.08970 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 234 | CSV v=5.00000 w=0.09000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 235 | CSV v=5.00000 w=0.09000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 236 | CSV v=5.00000 w=0.09000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 237 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 238 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 239 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 240 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 241 | CSV v=5.00000 w=0.09000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 242 | CSV v=5.00000 w=0.09000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 243 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 244 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 245 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 246 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 247 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 248 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 249 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 250 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 251 | CSV v=5.00000 w=0.09000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 252 | CSV v=5.00000 w=0.08470 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 253 | CSV v=5.00000 w=0.08500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 254 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 255 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 256 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 257 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 258 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 259 | CSV v=5.00000 w=0.08500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 260 | CSV v=5.00000 w=0.08500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 261 | CSV v=5.00000 w=0.08500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 262 | CSV v=5.00000 w=0.08500 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 263 | CSV v=5.00000 w=0.08500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 264 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 265 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 266 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 267 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 268 | CSV v=5.00000 w=0.08500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 269 | CSV v=5.00000 w=0.07970 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 270 | CSV v=5.00000 w=0.08000 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 271 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 272 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 273 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 274 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 275 | CSV v=5.00000 w=0.08000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 276 | CSV v=5.00000 w=0.08000 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 277 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 278 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 279 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 280 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 281 | CSV v=5.00000 w=0.08000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 282 | CSV v=5.00000 w=0.08000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 283 | CSV v=5.00000 w=0.08000 | raw0=187 raw1=8 raw2=0 | out_word=2235 out12_0=2235 out12_1=0 | v(raw0)=9.37333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.46608 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.37333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 284 | CSV v=5.00000 w=0.07470 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 285 | CSV v=5.00000 w=0.07500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 286 | CSV v=5.00000 w=0.07500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 287 | CSV v=5.00000 w=0.07500 | raw0=185 raw1=8 raw2=0 | out_word=2233 out12_0=2233 out12_1=0 | v(raw0)=9.26667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.41680 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.26667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 288 | CSV v=5.00000 w=0.07500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 289 | CSV v=5.00000 w=0.07500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 290 | CSV v=5.00000 w=0.07500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 291 | CSV v=5.00000 w=0.07500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 292 | CSV v=5.00000 w=0.07500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 293 | CSV v=5.00000 w=0.07500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 294 | CSV v=5.00000 w=0.07500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 295 | CSV v=5.00000 w=0.07500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 296 | CSV v=5.00000 w=0.07500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 297 | CSV v=5.00000 w=0.06970 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 298 | CSV v=5.00000 w=0.07000 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 299 | CSV v=5.00000 w=0.07000 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 300 | CSV v=5.00000 w=0.07000 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 301 | CSV v=5.00000 w=0.07000 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 302 | CSV v=5.00000 w=0.07000 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 303 | CSV v=5.00000 w=0.07000 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 304 | CSV v=5.00000 w=0.07000 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 305 | CSV v=5.00000 w=0.07000 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 306 | CSV v=5.00000 w=0.07000 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 307 | CSV v=5.00000 w=0.06470 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 308 | CSV v=5.00000 w=0.06500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 309 | CSV v=5.00000 w=0.06500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 310 | CSV v=5.00000 w=0.06500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 311 | CSV v=5.00000 w=0.06500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 312 | CSV v=5.00000 w=0.06500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 313 | CSV v=5.00000 w=0.06500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 314 | CSV v=5.00000 w=0.06500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 315 | CSV v=5.00000 w=0.06500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 316 | CSV v=5.00000 w=0.06500 | raw0=180 raw1=8 raw2=0 | out_word=2228 out12_0=2228 out12_1=0 | v(raw0)=9.00000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.29360 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.00000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 317 | CSV v=5.00000 w=0.06500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 318 | CSV v=5.00000 w=0.06500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 319 | CSV v=5.00000 w=0.05970 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 320 | CSV v=5.00000 w=0.06000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 321 | CSV v=5.00000 w=0.06000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 322 | CSV v=5.00000 w=0.06000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 323 | CSV v=5.00000 w=0.06000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 324 | CSV v=5.00000 w=0.06000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 325 | CSV v=5.00000 w=0.06000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 326 | CSV v=5.00000 w=0.06000 | raw0=189 raw1=8 raw2=0 | out_word=2237 out12_0=2237 out12_1=0 | v(raw0)=9.48000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.51536 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.48000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 327 | CSV v=5.00000 w=0.05470 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 328 | CSV v=5.00000 w=0.05500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 329 | CSV v=5.00000 w=0.05500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 330 | CSV v=5.00000 w=0.05500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 331 | CSV v=5.00000 w=0.05500 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 332 | CSV v=5.00000 w=0.05500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 333 | CSV v=5.00000 w=0.05500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 334 | CSV v=5.00000 w=0.05500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 335 | CSV v=5.00000 w=0.05500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 336 | CSV v=5.00000 w=0.05500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 337 | CSV v=5.00000 w=0.05500 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 338 | CSV v=5.00000 w=0.04970 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 339 | CSV v=5.00000 w=0.05000 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 340 | CSV v=5.00000 w=0.05000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 341 | CSV v=5.00000 w=0.05000 | raw0=186 raw1=8 raw2=0 | out_word=2234 out12_0=2234 out12_1=0 | v(raw0)=9.32000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.44144 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.32000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 342 | CSV v=5.00000 w=0.05000 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 343 | CSV v=5.00000 w=0.04470 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 344 | CSV v=5.00000 w=0.04500 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 345 | CSV v=5.00000 w=0.04500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 346 | CSV v=5.00000 w=0.04500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 347 | CSV v=5.00000 w=0.04500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 348 | CSV v=5.00000 w=0.04500 | raw0=184 raw1=8 raw2=0 | out_word=2232 out12_0=2232 out12_1=0 | v(raw0)=9.21333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.39216 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.21333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 349 | CSV v=5.00000 w=0.04500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 350 | CSV v=5.00000 w=0.04500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 351 | CSV v=5.00000 w=0.03970 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 352 | CSV v=5.00000 w=0.04000 | raw0=182 raw1=8 raw2=0 | out_word=2230 out12_0=2230 out12_1=0 | v(raw0)=9.10667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.34288 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.10667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 353 | CSV v=5.00000 w=0.04000 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 354 | CSV v=5.00000 w=0.04000 | raw0=183 raw1=8 raw2=0 | out_word=2231 out12_0=2231 out12_1=0 | v(raw0)=9.16000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.36752 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.16000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 355 | CSV v=5.00000 w=0.04000 | raw0=177 raw1=8 raw2=0 | out_word=2225 out12_0=2225 out12_1=0 | v(raw0)=8.84000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.21968 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.84000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 356 | CSV v=5.00000 w=0.04000 | raw0=177 raw1=8 raw2=0 | out_word=2225 out12_0=2225 out12_1=0 | v(raw0)=8.84000 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.21968 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.84000 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 357 | CSV v=5.00000 w=0.04000 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 358 | CSV v=5.00000 w=0.03470 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 359 | CSV v=5.00000 w=0.03500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 360 | CSV v=5.00000 w=0.03500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 361 | CSV v=5.00000 w=0.03500 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 362 | CSV v=5.00000 w=0.03500 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 363 | CSV v=5.00000 w=0.03500 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 364 | CSV v=5.00000 w=0.02970 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 365 | CSV v=5.00000 w=0.03000 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 366 | CSV v=5.00000 w=0.03000 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 367 | CSV v=5.00000 w=0.03000 | raw0=188 raw1=8 raw2=0 | out_word=2236 out12_0=2236 out12_1=0 | v(raw0)=9.42667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.49072 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.42667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 368 | CSV v=5.00000 w=0.03000 | raw0=175 raw1=8 raw2=0 | out_word=2223 out12_0=2223 out12_1=0 | v(raw0)=8.73333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.17040 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.73333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 369 | CSV v=5.00000 w=0.02470 | raw0=175 raw1=8 raw2=0 | out_word=2223 out12_0=2223 out12_1=0 | v(raw0)=8.73333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.17040 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.73333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 370 | CSV v=5.00000 w=0.02500 | raw0=179 raw1=8 raw2=0 | out_word=2227 out12_0=2227 out12_1=0 | v(raw0)=8.94667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.26896 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.94667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 371 | CSV v=5.00000 w=0.02500 | raw0=176 raw1=8 raw2=0 | out_word=2224 out12_0=2224 out12_1=0 | v(raw0)=8.78667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.19504 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.78667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 372 | CSV v=5.00000 w=0.02500 | raw0=176 raw1=8 raw2=0 | out_word=2224 out12_0=2224 out12_1=0 | v(raw0)=8.78667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.19504 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.78667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 373 | CSV v=5.00000 w=0.02500 | raw0=176 raw1=8 raw2=0 | out_word=2224 out12_0=2224 out12_1=0 | v(raw0)=8.78667 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.19504 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.78667 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 374 | CSV v=5.00000 w=0.02500 | raw0=178 raw1=8 raw2=0 | out_word=2226 out12_0=2226 out12_1=0 | v(raw0)=8.89333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.24432 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=8.89333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 375 | CSV v=5.00000 w=0.02500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444
+[INPUT] bytes aceptados = 576 ciclos_envio = 18444 early_outputs = 1
+Frame 376 | CSV v=5.00000 w=0.02500 | raw0=181 raw1=8 raw2=0 | out_word=2229 out12_0=2229 out12_1=0 | v(raw0)=9.05333 v(raw1)=-0.17333 v(raw2)=-0.60000 | w(raw0)=1.31824 w(raw1)=-2.94447 w(raw2)=-3.14159 | usado FINN v=9.05333 w=-2.94447 ciclos=18444

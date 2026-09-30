@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Wed Jul  8 10:44:03 2026
+# Process ID: 43761
+# Current directory: /tmp/FINN_build_mlp27k_w4a8_ft_clean/vivado_stitch_proj_8ba8a6h2/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_1_1_0_synth_1
+# Command line: vivado -log finn_design_StreamingFIFO_1_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source finn_design_StreamingFIFO_1_1_0.tcl
+# Log file: /tmp/FINN_build_mlp27k_w4a8_ft_clean/vivado_stitch_proj_8ba8a6h2/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_1_1_0_synth_1/finn_design_StreamingFIFO_1_1_0.vds
+# Journal file: /tmp/FINN_build_mlp27k_w4a8_ft_clean/vivado_stitch_proj_8ba8a6h2/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_1_1_0_synth_1/vivado.jou
+# Running On: finn_dev_miguel_tfg, OS: Linux, CPU Frequency: 4099.958 MHz, CPU Physical cores: 24, Host memory: 67180 MB
+#-----------------------------------------------------------
+source finn_design_StreamingFIFO_1_1_0.tcl -notrace
