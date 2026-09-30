@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "MatrixVectorActivation_2",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/miguel_tfg\/FINN-v0.9-Stable\/notebooks\/UAH_example\/FINN_build\/code_gen_ipgen_MatrixVectorActivation_2_dsqiemye\/hls_syn_MatrixVectorActivation_2.tcl",
+          "sourceLine": "29",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "MatrixVectorActivation_2"
+              }]
+          }
+        }]
+    }]}

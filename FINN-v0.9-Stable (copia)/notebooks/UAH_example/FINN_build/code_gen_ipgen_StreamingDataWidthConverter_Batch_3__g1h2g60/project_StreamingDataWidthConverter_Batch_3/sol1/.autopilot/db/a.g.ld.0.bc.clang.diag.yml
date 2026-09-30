@@ -1,0 +1,17 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingDataWidthConverter_Batch_3__g1h2g60/top_StreamingDataWidthConverter_Batch_3.cpp, 
+                   Line: 16, Column: 0 }
+Function:        _Z35StreamingDataWidthConverter_Batch_3RN3hls6streamI7ap_uintILi128EELi0EEERNS0_IS1_ILi4EELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void StreamingDataWidthConverter_Batch<128u, 4u, 2304u>(hls::stream<ap_uint<128u>, 0>&, hls::stream<ap_uint<4u>, 0>&, unsigned int)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h, 
+                       Line: 441, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'StreamingDataWidthConverter_Batch_3(hls::stream<ap_uint<128>, 0>&, hls::stream<ap_uint<4>, 0>&)'
+    DebugLoc:        { File: /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_StreamingDataWidthConverter_Batch_3__g1h2g60/top_StreamingDataWidthConverter_Batch_3.cpp, 
+                       Line: 16, Column: 0 }
+  - String:          ''''
+...

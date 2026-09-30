@@ -1,0 +1,32 @@
+set SynModuleInfo {
+  {SRCNAME Matrix_Vector_Activate_Stream_Batch MODELNAME Matrix_Vector_Activate_Stream_Batch RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch
+    SUBMODULES {
+      {MODELNAME MatrixVectorActivation_0_mux_727_64_1_1 RTLNAME MatrixVectorActivation_0_mux_727_64_1_1 BINDTYPE op TYPE mux IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_mul_8s_4s_12_1_1 RTLNAME MatrixVectorActivation_0_mul_8s_4s_12_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_mac_muladd_8s_4s_12s_13_4_1 RTLNAME MatrixVectorActivation_0_mac_muladd_8s_4s_12s_13_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_mac_muladd_8s_4s_13s_13_4_1 RTLNAME MatrixVectorActivation_0_mac_muladd_8s_4s_13s_13_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_mac_muladd_8s_4s_17s_17_4_1 RTLNAME MatrixVectorActivation_0_mac_muladd_8s_4s_17s_17_4_1 BINDTYPE op TYPE all IMPL dsp48 LATENCY 3 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_0_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_0_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_1_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_1_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_2_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_2_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_3_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_3_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_4_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_4_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_5_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_5_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_6_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_6_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_7_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_7_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_8_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_8_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_9_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_9_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_10_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_10_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_11_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_11_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_12_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_12_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_13_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_13_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_14_ROM_AUTO_1R RTLNAME MatrixVectorActivation_0_Matrix_Vector_Activate_Stream_Batch_p_ZL7threshs_0_14_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME MatrixVectorActivation_0_flow_control_loop_pipe_sequential_init RTLNAME MatrixVectorActivation_0_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME MatrixVectorActivation_0_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME MatrixVectorActivation_0 MODELNAME MatrixVectorActivation_0 RTLNAME MatrixVectorActivation_0 IS_TOP 1
+    SUBMODULES {
+      {MODELNAME MatrixVectorActivation_0_regslice_both RTLNAME MatrixVectorActivation_0_regslice_both BINDTYPE interface TYPE interface_regslice INSTNAME MatrixVectorActivation_0_regslice_both_U}
+    }
+  }
+}

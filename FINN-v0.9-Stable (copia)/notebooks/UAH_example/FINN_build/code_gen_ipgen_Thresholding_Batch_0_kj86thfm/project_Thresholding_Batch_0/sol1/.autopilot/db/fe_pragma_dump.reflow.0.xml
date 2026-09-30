@@ -1,0 +1,51 @@
+<pragmas>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp" line="296" pragmaType="pipeline" parentfunction="Thresholding_Batch" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp" line="302" pragmaType="unroll" parentfunction="Thresholding_Batch" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp" line="0" pragmaType="inline" parentfunction="Slice<ap_uint<8>, 8u>::Container<ap_uint<8> > Slice<ap_uint<8>, 8u>::operator()<ap_uint<8> >(ap_uint<8> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp" line="0" pragmaType="inline" parentfunction="Slice<ap_uint<8>, 8u>::Container<ap_uint<8> >::operator()(unsigned int, unsigned int) const" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp" line="214" pragmaType="inline" parentfunction="activate" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp" line="217" pragmaType="unroll" parentfunction="activate" factor="-1" skip_exit_check="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp" line="224" pragmaType="inline" parentfunction="Slice<ap_int<8>, 8u>::Container<ap_uint<8> >::operator ap_uint<8> const&() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="185" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base<8, true>(ap_int_base<8, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1088" pragmaType="inline" parentfunction="ap_int_base<8, false>::operator()(int, int) const" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1052" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="303" pragmaType="inline" parentfunction="ap_range_ref<8, false>::ap_range_ref(ap_int_base<8, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<8>::ap_int(int)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1038" pragmaType="inline" parentfunction="bool ap_int_base<8, false>::operator<=<8, false>(ap_int_base<8, false> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<1>::ap_uint(bool)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="208" pragmaType="inline" parentfunction="ap_int_base<1, false>::ap_int_base(bool)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi1ELb0EEC2EDq1_j" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="214" pragmaType="inline" parentfunction="ap_int_base<8, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="515" pragmaType="inline" parentfunction="ssdm_int<8, true>::ssdm_int(signed char)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint<8, false>(ap_range_ref<8, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<8>::ap_int<8>(ap_uint<8> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint<8>(ap_int<8> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="185" pragmaType="inline" parentfunction="ap_int_base<8, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="357" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base<8, false>(ap_range_ref<8, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="626" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="175" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base()" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp" line="207" pragmaType="inline" parentfunction="Slice<ap_uint<8>, 8u>::Container<ap_uint<8> >::Container(ap_uint<8> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp" line="204" pragmaType="inline" parentfunction="Slice<ap_int<8>, 8u>::Container<ap_uint<8> >::Container()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="214" pragmaType="inline" parentfunction="ap_int_base<8, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp" line="0" pragmaType="inline" parentfunction="Slice<ap_int<8>, 8u>::Container<ap_uint<8> > Slice<ap_int<8>, 8u>::operator()<ap_uint<8> >() const" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="523" pragmaType="inline" parentfunction="ssdm_int<8, false>::ssdm_int(unsigned char)" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_Thresholding_Batch_0_kj86thfm/top_Thresholding_Batch_0.cpp" line="21" pragmaType="interface" parentfunction="Thresholding_Batch_0" mode="axis" port="in0" register="0" register_mode="both" name="in0_V" depth="-1"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_Thresholding_Batch_0_kj86thfm/top_Thresholding_Batch_0.cpp" line="22" pragmaType="interface" parentfunction="Thresholding_Batch_0" mode="axis" port="out" register="0" register_mode="both" name="out_V" depth="-1"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_Thresholding_Batch_0_kj86thfm/top_Thresholding_Batch_0.cpp" line="23" pragmaType="interface" parentfunction="Thresholding_Batch_0" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_Thresholding_Batch_0_kj86thfm/top_Thresholding_Batch_0.cpp" line="24" pragmaType="array_partition" parentfunction="Thresholding_Batch_0" dim="1" factor="0" mode="complete" dynamic="0" variable=""/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_Thresholding_Batch_0_kj86thfm/top_Thresholding_Batch_0.cpp" line="25" pragmaType="array_partition" parentfunction="Thresholding_Batch_0" dim="3" factor="0" mode="complete" dynamic="0" variable=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<8>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="/home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/interpret.hpp" line="0" pragmaType="inline" parentfunction="Slice<ap_int<8>, 8u>::Container<ap_uint<8> >::operator()(unsigned int, unsigned int, bool) const" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="0" pragmaType="inline" parentfunction="ap_range_ref<8, false>& ap_range_ref<8, false>::operator=<8, true>(ap_int_base<8, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="ap_int_base<8, true>& ap_int_base<8, true>::operator+=<1, false>(ap_int_base<1, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="0" pragmaType="inline" parentfunction="ssdm_int<8, false>::ssdm_int()" off="0" region="0" recursive="0"/>
+<pragma file="/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+</pragmas>

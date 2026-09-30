@@ -1,0 +1,1767 @@
+---
+MainSourceFile:  /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          56446
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          263966
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          264409
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          264853
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          527251
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1636700
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_1:  '
+    FileOffset:      159
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1637275
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_1:  '
+    FileOffset:      76
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1650449
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1650929
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_1:  '
+    FileOffset:      158
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1652006
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_2:  '
+    FileOffset:      159
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1652051
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1652790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_233_1:  '
+    FileOffset:      233
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1653134
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_277_1:  '
+    FileOffset:      277
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1653779
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_2:  '
+    FileOffset:      278
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1653825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_279_3:  '
+    FileOffset:      279
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1653872
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_279_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_1:  '
+    FileOffset:      333
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1654655
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1655736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_450_1:  '
+    FileOffset:      450
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1656479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_450_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_470_2:  '
+    FileOffset:      470
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1656818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_470_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_3:  '
+    FileOffset:      481
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1657153
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_535_1:  '
+    FileOffset:      535
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1658225
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_535_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_553_2:  '
+    FileOffset:      553
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1658760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_553_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1659469
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_618_1:  '
+    FileOffset:      618
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1659940
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_618_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_648_1:  '
+    FileOffset:      648
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1660507
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_648_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_653_2:  '
+    FileOffset:      653
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1660747
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_653_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_691_1:  '
+    FileOffset:      691
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1661556
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_691_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_769_1:  '
+    FileOffset:      769
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1663657
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_769_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_776_2:  '
+    FileOffset:      776
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1663819
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_776_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_792_3:  '
+    FileOffset:      792
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1664084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_792_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_798_4:  '
+    FileOffset:      798
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1664271
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_798_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_810_5:  '
+    FileOffset:      810
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1664566
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_810_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_814_6:  '
+    FileOffset:      814
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1664703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_814_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_850_1:  '
+    FileOffset:      850
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1665256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_850_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_854_2:  '
+    FileOffset:      854
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1665432
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_854_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_881_1:  '
+    FileOffset:      881
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1665874
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_881_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_885_2:  '
+    FileOffset:      885
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1666046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_885_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_973_1:  '
+    FileOffset:      973
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1668104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_973_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_974_2:  '
+    FileOffset:      974
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1668163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_974_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_996_1:  '
+    FileOffset:      996
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1668566
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_996_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_997_2:  '
+    FileOffset:      997
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1668625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_997_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_1:  '
+    FileOffset:      113
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1670143
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_1:  '
+    FileOffset:      140
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1670764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_1:  '
+    FileOffset:      153
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1671181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1671581
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1672146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1672731
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_223_2:  '
+    FileOffset:      223
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1672782
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_223_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_227_3:  '
+    FileOffset:      227
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1672906
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_227_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1944423
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1944579
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      74
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      116
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      137
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1947203
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_2:  '
+    FileOffset:      191
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1947282
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1951665
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_2:  '
+    FileOffset:      325
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1951742
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1951954
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_358_4:  '
+    FileOffset:      358
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1952801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_358_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_391_5:  '
+    FileOffset:      391
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1953653
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_391_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1955976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_478_2:  '
+    FileOffset:      478
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1956257
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_478_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_625_1:  '
+    FileOffset:      625
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1960570
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_625_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_630_2:  '
+    FileOffset:      630
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1960851
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_630_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_636_3:  '
+    FileOffset:      636
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1961042
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_636_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_671_4:  '
+    FileOffset:      671
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1962161
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_671_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_5:  '
+    FileOffset:      704
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1962959
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_780_1:  '
+    FileOffset:      780
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1965045
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_780_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_781_2:  '
+    FileOffset:      781
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1965124
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_781_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_910_1:  '
+    FileOffset:      910
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1969371
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_910_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_2:  '
+    FileOffset:      914
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1969605
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1064_1:  '
+    FileOffset:      1064
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1975011
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1064_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1065_2:  '
+    FileOffset:      1065
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1975088
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1065_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1071_3:  '
+    FileOffset:      1071
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1975300
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1071_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1098_4:  '
+    FileOffset:      1098
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1976147
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1098_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_5:  '
+    FileOffset:      1131
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1976999
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1189_1:  '
+    FileOffset:      1189
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1978233
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1191_2:  '
+    FileOffset:      1191
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1978319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1195_3:  '
+    FileOffset:      1195
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1978546
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1195_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1198_4:  '
+    FileOffset:      1198
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1978735
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1198_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1237_1:  '
+    FileOffset:      1237
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1979523
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1237_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1239_2:  '
+    FileOffset:      1239
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1979609
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1239_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1242_3:  '
+    FileOffset:      1242
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1979795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1242_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1311_1:  '
+    FileOffset:      1311
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1981654
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1311_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1312_2:  '
+    FileOffset:      1312
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1981733
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1312_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1445_1:  '
+    FileOffset:      1445
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1985992
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1445_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1446_2:  '
+    FileOffset:      1446
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1986071
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1446_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1586_1:  '
+    FileOffset:      1586
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1990320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1586_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1587_2:  '
+    FileOffset:      1587
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1990399
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1587_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1714_1:  '
+    FileOffset:      1714
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1994147
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1714_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1715_2:  '
+    FileOffset:      1715
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1994226
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1715_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1735_3:  '
+    FileOffset:      1735
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1994711
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1735_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1820_1:  '
+    FileOffset:      1820
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1996801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1820_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1821_2:  '
+    FileOffset:      1821
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1996880
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1821_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1899_1:  '
+    FileOffset:      1899
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1998925
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1899_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1905_2:  '
+    FileOffset:      1905
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          1999148
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1905_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1975_1:  '
+    FileOffset:      1975
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2000780
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1975_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1981_2:  '
+    FileOffset:      1981
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2000967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1981_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_1:  '
+    FileOffset:      2053
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2002614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2060_2:  '
+    FileOffset:      2060
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2002824
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2060_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2010095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2010187
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_3:  '
+    FileOffset:      79
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2010248
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_4:  '
+    FileOffset:      80
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2010302
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_5:  '
+    FileOffset:      82
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2010405
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_6:  '
+    FileOffset:      90
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2010566
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2011024
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2011617
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_2:  '
+    FileOffset:      148
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2011674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_3:  '
+    FileOffset:      154
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2011819
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_4:  '
+    FileOffset:      155
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2011880
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2011934
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_6:  '
+    FileOffset:      158
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2012000
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_7:  '
+    FileOffset:      161
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2012118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_8:  '
+    FileOffset:      174
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2012529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_9:  '
+    FileOffset:      175
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2012604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2013777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_257_1:  '
+    FileOffset:      257
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2014840
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_257_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_2:  '
+    FileOffset:      259
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2014918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_267_3:  '
+    FileOffset:      267
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2015092
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_4:  '
+    FileOffset:      269
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2015148
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_5:  '
+    FileOffset:      271
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2015239
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_6:  '
+    FileOffset:      274
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2015351
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_287_7:  '
+    FileOffset:      287
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2015764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_287_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_8:  '
+    FileOffset:      289
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2015842
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_9:  '
+    FileOffset:      301
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2016137
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_332_1:  '
+    FileOffset:      332
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2016687
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_332_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2017338
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_368_2:  '
+    FileOffset:      368
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2017394
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_368_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_3:  '
+    FileOffset:      369
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2017457
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_372_4:  '
+    FileOffset:      372
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2017580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_372_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      415
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2018613
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_2:  '
+    FileOffset:      419
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2018669
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_3:  '
+    FileOffset:      420
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2018732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_4:  '
+    FileOffset:      424
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2018927
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_5:  '
+    FileOffset:      435
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2019371
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_1:  '
+    FileOffset:      481
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2020157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_483_2:  '
+    FileOffset:      483
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2020235
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_483_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_488_3:  '
+    FileOffset:      488
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2020369
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_488_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_491_4:  '
+    FileOffset:      491
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2020532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_491_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_500_5:  '
+    FileOffset:      500
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2020792
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_500_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_6:  '
+    FileOffset:      507
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2020926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_527_7:  '
+    FileOffset:      527
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2021283
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_527_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_575_1:  '
+    FileOffset:      575
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2022010
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_575_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_582_2:  '
+    FileOffset:      582
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2022168
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_582_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_589_3:  '
+    FileOffset:      589
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2022329
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_589_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_4:  '
+    FileOffset:      598
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2022537
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      116
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      142
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2024336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_1:  '
+    FileOffset:      194
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2024670
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2025877
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2026129
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_3:  '
+    FileOffset:      141
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2026187
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_150_4:  '
+    FileOffset:      150
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2026363
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_150_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_5:  '
+    FileOffset:      153
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2026463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_6:  '
+    FileOffset:      164
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2026732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_7:  '
+    FileOffset:      166
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2026791
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_1:  '
+    FileOffset:      249
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2028088
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_2:  '
+    FileOffset:      266
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2028351
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_3:  '
+    FileOffset:      273
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2028513
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2028630
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_5:  '
+    FileOffset:      293
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2028932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_1:  '
+    FileOffset:      90
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2030064
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_2:  '
+    FileOffset:      102
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2030381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2030526
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_4:  '
+    FileOffset:      111
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2030582
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_5:  '
+    FileOffset:      131
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2031409
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2031505
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2032824
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_1:  '
+    FileOffset:      111
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2040524
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_2:  '
+    FileOffset:      117
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2040671
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_3:  '
+    FileOffset:      118
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2040717
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_4:  '
+    FileOffset:      127
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2040893
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_5:  '
+    FileOffset:      130
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2040993
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_6:  '
+    FileOffset:      141
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2041242
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_143_7:  '
+    FileOffset:      143
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2041301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_143_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2042417
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_228_2:  '
+    FileOffset:      228
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2042557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_228_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_3:  '
+    FileOffset:      229
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2042599
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_4:  '
+    FileOffset:      240
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2042882
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_5:  '
+    FileOffset:      245
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2043019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_6:  '
+    FileOffset:      248
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2043116
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_7:  '
+    FileOffset:      259
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2043348
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_261_8:  '
+    FileOffset:      261
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2043406
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_261_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2044841
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_85_2:  '
+    FileOffset:      85
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2044888
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_85_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_1:  '
+    FileOffset:      142
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2045875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_1:  '
+    FileOffset:      174
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2046534
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2163167
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_1:  '
+    FileOffset:      295
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2164373
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_300_2:  '
+    FileOffset:      300
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2164550
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_300_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_356_1:  '
+    FileOffset:      356
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2165516
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_356_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_2:  '
+    FileOffset:      369
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2165860
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_374_3:  '
+    FileOffset:      374
+    FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/code_gen_ipgen_MatrixVectorActivation_1_ufvsgxba/project_MatrixVectorActivation_1/sol1/.autopilot/db/top_MatrixVectorActivation_1.pp.0.cpp
+        Offset:          2165985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_374_3: '
+...
