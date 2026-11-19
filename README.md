@@ -1,44 +1,18 @@
-# TFG_MiguelSimon_2026
-# TFG – Entorno FINN, Verilator, ROS 2 y Gazebo
+# TFG Miguel Simón 2026
 
-Este repositorio contiene los archivos desarrollados y utilizados durante el Trabajo Fin de Grado para la validación de una red neuronal destinada al control de un vehículo F1 en el circuito de Montmeló.
+Validación de una red neuronal que controla un vehículo F1 en el circuito de Montmeló: la red se entrena y cuantiza, se compila a hardware con FINN, se simula con Verilator y se integra con ROS 2 y Gazebo.
 
-El repositorio se divide principalmente en dos partes: el entorno utilizado para el desarrollo y simulación de la red neuronal mediante FINN y Verilator, y el workspace de ROS 2 utilizado para su integración con Gazebo.
+Para volver a ejecutarlo todo: [`GUIA_EJECUCION.md`](GUIA_EJECUCION.md).
 
-Para volver a ejecutarlo todo, ver [`GUIA_EJECUCION.md`](GUIA_EJECUCION.md). El material recuperado del servidor está en [`material_recuperado/`](material_recuperado/README.md).
+## Estructura (en el orden del flujo)
+| Carpeta | Contenido |
+|---|---|
+| [`01_entrenamiento/`](01_entrenamiento/README.md) | Entrenamiento de la red: código original (neuralpilot), MLP con Brevitas y CNN. |
+| [`02_cuantizacion_finn/`](02_cuantizacion_finn/README.md) | Cuantización y compilación con FINN. Los ficheros están en el repositorio de FINN: [`rubennc91/FINN-v0.9-Stable`](https://github.com/rubennc91/FINN-v0.9-Stable/tree/main/notebooks/UAH_example/TFG_MiguelSimon). |
+| [`03_simulacion_verilator/`](03_simulacion_verilator/README.md) | Salida de FINN y simulación del diseño con Verilator (servidor UDP). |
+| [`04_ros2_gazebo/`](04_ros2_gazebo/README.md) | Workspace ROS 2 con el controlador del coche y resultados de las pruebas. |
+| [`05_dataset/`](05_dataset/README.md) | Circuitos de Montmeló del dataset JdeRobot y comprobación del dataset. |
+| [`docs/`](docs) | Cómo exportar e importar la imagen Docker de FINN. |
+| [`extras/`](extras) | Red lógica en SystemVerilog (LLNN) y notas de instalación. |
 
-## 1. Entorno FINN
-
-La carpeta `FINN-v0.9-Stable (copia)` contiene el entorno FINN utilizado durante el desarrollo del proyecto.
-
-Dentro de:
-
-`FINN-v0.9-Stable (copia)/notebooks/UAH_example/`
-
-se encuentran los archivos específicos desarrollados para el TFG, incluyendo los modelos neuronales, notebooks, scripts, configuraciones y diferentes archivos generados durante las distintas etapas del proyecto.
-
-La carpeta:
-
-`output_rebuild_mlp27k_w4a8_ft_clean/`
-
-contiene la implementación generada mediante FINN utilizada para la simulación posterior.
-
-## 2. Simulación mediante Verilator
-
-Dentro de la salida generada por FINN se encuentra la carpeta:
-
-`output_rebuild_mlp27k_w4a8_ft_clean/stitched_ip/verilator_sim/`
-
-Esta carpeta contiene los archivos necesarios para realizar la simulación del diseño generado mediante FINN utilizando Verilator.
-
-Aquí se incluyen el código del testbench, los archivos generados por Verilator, el ejecutable de simulación, los modelos de entrada y diferentes resultados obtenidos durante las pruebas.
-
-También se incluyen los archivos necesarios para comprobar el funcionamiento de la red neuronal utilizando el dataset.
-
-## 3. ROS 2 y Gazebo
-
-La carpeta `f1_ws` contiene el workspace utilizado para integrar la red neuronal con ROS 2 y Gazebo.
-
-Dentro de `src/f1_neural_controller/` se encuentra el paquete desarrollado para el control del vehículo F1, junto con los archivos necesarios para su compilación y ejecución.
-
-La carpeta `results` contiene algunos de los resultados obtenidos durante las pruebas realizadas con el sistema completo.
+No incluido por tamaño: la imagen Docker de FINN y los vídeos (se alojarán aparte). Faltan también los scripts de análisis del capítulo 4 y las fuentes de la memoria.

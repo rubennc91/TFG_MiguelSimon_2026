@@ -1,4 +1,0 @@
-#!/bin/bash
-export OPT_FAST='-O3 -march=native'
-perl /usr/local/bin/verilator -Wno-fatal -Mdir /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/verilator_fifosim_syhhe3dk -y /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/vivado_stitch_proj_l_2s39ll -y /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/vivado_stitch_proj_l_2s39ll/pyverilator_vh --CFLAGS --std=c++11 -O3 --x-assign fast --x-initial fast --noassert --cc finn_design_wrapper.v /tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv /tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv /tools/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv --top-module finn_design_wrapper --exe verilator_fifosim.cpp --threads 4 -DDISABLE_XPM_ASSERTIONS -DOBSOLETE -DONESPIN --bbox-unsup
-make -j4 -C /home/miguel_tfg/FINN-v0.9-Stable/notebooks/UAH_example/FINN_build/verilator_fifosim_syhhe3dk -f Vfinn_design_wrapper.mk Vfinn_design_wrapper
