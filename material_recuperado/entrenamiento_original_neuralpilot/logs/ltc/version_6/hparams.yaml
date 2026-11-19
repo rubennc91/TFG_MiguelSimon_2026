@@ -1,0 +1,12 @@
+batch_size: 8
+da: 1
+dropout: 0.05
+latent_features: 16
+lda: 0.005
+learning_rate: 0.0005
+max_epochs: 1000
+num_classes: 2
+num_test_batches: 5
+num_train_batches: 17
+num_workers: 0
+std_noise: 0.02

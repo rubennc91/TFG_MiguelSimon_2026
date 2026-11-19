@@ -1,0 +1,20 @@
+CSV: /home/miguel_tfg/Orig/DATA_12_16/counter_montmelo_holonomic/data.csv
+Frames encontrados: 6539
+
+=== Valores reales del CSV ===
+v min=-0.600000 max=13.000000 mean=5.267625 std=1.898465
+w min=-2.997000 max=2.120750 mean=0.051582 std=0.642313
+
+=== Valores normalizados ===
+vnorm min=0.000000 max=1.000000 mean=0.431443 std=0.139593
+wnorm min=0.023013 max=0.837528 mean=0.508210 std=0.102227
+
+=== Error normalizar y desnormalizar ===
+error max v=0.000000000000
+error max w=0.000000000000
+
+OK: vnorm dentro de [0, 1]
+OK: wnorm dentro de [0, 1]
+
+Vídeo generado: /home/miguel_tfg/comprobacion_dataset_flecha.mp4
+CSV generado: /home/miguel_tfg/comprobacion_dataset_resultados.csv

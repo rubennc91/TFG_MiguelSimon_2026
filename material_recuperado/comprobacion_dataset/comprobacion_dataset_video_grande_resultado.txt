@@ -1,0 +1,3 @@
+Frames encontrados: 6539
+Video generado: /home/miguel_tfg/comprobacion_dataset_flecha_grande.avi
+CSV generado: /home/miguel_tfg/comprobacion_dataset_resultados_grande.csv

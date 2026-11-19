@@ -1,0 +1,26 @@
+{
+  "Thresholding_Batch_0": {
+    "param_threshold_8b": 146880
+  },
+  "MatrixVectorActivation_0": {
+    "op_mac_4bx8b": 18432,
+    "param_weight_4b": 18432,
+    "param_threshold_15b": 32
+  },
+  "MatrixVectorActivation_1": {
+    "op_mac_4bx8b": 8192,
+    "param_weight_4b": 8192,
+    "param_threshold_13b": 256
+  },
+  "MatrixVectorActivation_2": {
+    "op_mac_4bx8b": 512,
+    "param_weight_4b": 512
+  },
+  "total": {
+    "param_threshold_8b": 146880.0,
+    "op_mac_4bx8b": 27136.0,
+    "param_weight_4b": 27136.0,
+    "param_threshold_15b": 32.0,
+    "param_threshold_13b": 256.0
+  }
+}

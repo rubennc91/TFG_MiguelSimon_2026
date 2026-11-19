@@ -1,0 +1,48 @@
+{
+    "Defaults": {
+        "ram_style": "distributed",
+        "resType": "dsp"
+    },
+    "MatrixVectorActivation_0": {
+        "PE": 1,
+        "SIMD": 1,
+        "ram_style": "distributed",
+        "resType": "dsp"
+    },
+    "MatrixVectorActivation_1": {
+        "PE": 1,
+        "SIMD": 1,
+        "ram_style": "auto",
+        "resType": "dsp"
+    },
+    "MatrixVectorActivation_2": {
+        "PE": 1,
+        "SIMD": 1,
+        "ram_style": "distributed",
+        "resType": "dsp"
+    },
+    "Thresholding_Batch_0": {
+        "PE": 1,
+        "ram_style": "distributed"
+    },
+    "StreamingFIFO_0": {
+        "ram_style": "auto",
+        "depth": 2
+    },
+    "StreamingFIFO_1": {
+        "ram_style": "auto",
+        "depth": 2
+    },
+    "StreamingFIFO_2": {
+        "ram_style": "auto",
+        "depth": 2
+    },
+    "StreamingFIFO_3": {
+        "ram_style": "auto",
+        "depth": 2
+    },
+    "StreamingFIFO_4": {
+        "ram_style": "auto",
+        "depth": 2
+    }
+}
