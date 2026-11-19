@@ -1,7 +1,7 @@
 # Guía para volver a ejecutar el TFG
 
 Pasos reconstruidos a partir del contenido del repositorio y del historial de comandos de Miguel.
-Los puntos marcados con **(a confirmar)** son deducciones, no algo comprobado.
+Todo lo dicho se ha contrastado con el historial de Miguel y con su contenedor de Docker.
 
 ## 0. Requisitos
 - Ubuntu 22.04, Docker y, para Gazebo con GPU, `nvidia-container-toolkit`.
@@ -15,7 +15,7 @@ Está en `05_dataset/dataset_jderobot/` (circuitos `montmelo_holonomic` y `count
 
 ## 2. Cuantizar y compilar la red con FINN
 1. Clonar `https://github.com/rubennc91/FINN-v0.9-Stable`, y desde su raíz arrancar el entorno: `./run-docker.sh notebook`. Los ficheros del TFG están en `notebooks/UAH_example/TFG_MiguelSimon/` (directorio de trabajo de los notebooks).
-2. Notebooks de cuantización, en esa carpeta. Los nombres indican las versiones: `Quantize_MLP27K_Montmelo_FINN` (v1) a `..._v4_clean_rebuild_verilator`. **(a confirmar)** El flujo final es `v4_clean_rebuild_verilator`, que genera `output_rebuild_mlp27k_w4a8_ft_clean`.
+2. Notebooks de cuantización, en esa carpeta. Los nombres indican las versiones: `Quantize_MLP27K_Montmelo_FINN` (v1) a `..._v4_clean_rebuild_verilator`. **El notebook definitivo es `Quantize_MLP27K_Montmelo_FINN_v4_clean_rebuild_verilator.ipynb`** (confirmado por el tutor); genera `output_rebuild_mlp27k_w4a8_ft_clean`.
 3. Alternativa por script, dentro del contenedor: `python build_miguel.py`. Parte de `model_tidy.onnx` y `folding_config_miguel.json`, para `xc7z020clg400-1` a 10 ns y 1000 fps, y deja la IP en `output_final_miguel/`.
 4. Modelos de partida: pesos `mlp_27k.ckpt` (entrenamiento en `01_entrenamiento/neuralpilot_original/`) y `q_mlp27k_w4a8_finetuned.pth`.
 
