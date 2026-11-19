@@ -5,6 +5,8 @@ Este repositorio contiene los archivos desarrollados y utilizados durante el Tra
 
 El repositorio se divide principalmente en dos partes: el entorno utilizado para el desarrollo y simulación de la red neuronal mediante FINN y Verilator, y el workspace de ROS 2 utilizado para su integración con Gazebo.
 
+Para volver a ejecutarlo todo, ver [`GUIA_EJECUCION.md`](GUIA_EJECUCION.md). El material recuperado del servidor está en [`material_recuperado/`](material_recuperado/README.md).
+
 ## 1. Entorno FINN
 
 La carpeta `FINN-v0.9-Stable (copia)` contiene el entorno FINN utilizado durante el desarrollo del proyecto.
