@@ -32,7 +32,11 @@ g++ -Iobj_dir -I/usr/share/verilator/include -I/usr/share/verilator/include/vlts
 Esto recorre el dataset y escribe `resultados_verilator.csv` (error, tiempos). Comparación con el ONNX: `comprobar_onnx_vs_verilator.py`.
 
 ## 4. Servidor Verilator para el coche (UDP)
-`main.cpp` de esa misma carpeta arranca un servidor UDP en el puerto **5005**, que recibe la imagen y devuelve la salida de la red. **(a confirmar)** Se compila con el mismo `g++` de arriba cambiando `main_original_antes_udp.cpp` por `main.cpp`, y se deja en marcha en el equipo antes de lanzar el controlador.
+`main.cpp` de esa misma carpeta arranca un servidor UDP en el puerto **5005**, que recibe la imagen y devuelve la salida de la red. Comprobado en el historial de Miguel: el `make -C obj_dir ...` del paso anterior compila ese `main.cpp`, y el servidor se arranca desde la carpeta `verilator_sim` con:
+```bash
+./obj_dir/Vfinn_design_wrapper
+```
+Se deja en marcha en el equipo antes de lanzar el controlador. Para pararlo: `pkill -f Vfinn_design_wrapper` (si el puerto sigue ocupado, `ss -lunp | grep 5005`). El `g++` del paso 3 es solo para el programa que recorre el dataset (`main_original_antes_udp.cpp`).
 
 ## 5. Gazebo y ROS 2
 1. Permitir pantalla al contenedor: `xhost +local:root`.
