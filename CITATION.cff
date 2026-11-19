@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Si usas este material, cítalo así."
+title: "Material del TFG de Miguel Simón Chica: red neuronal cuantizada en FPGA (FINN) para conducción autónoma en ROS 2 / Gazebo"
+type: software
+authors:
+  - family-names: "Simón Chica"
+    given-names: "Miguel"
+  - family-names: "Nieto Capuchino"
+    given-names: "Rubén"
+    alias: "tutor"
+date-released: "2026-11-19"
+license: MIT
+repository-code: "https://github.com/rubennc91/TFG_MiguelSimon_2026"

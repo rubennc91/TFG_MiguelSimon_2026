@@ -16,3 +16,13 @@ Para volver a ejecutarlo todo: [`GUIA_EJECUCION.md`](GUIA_EJECUCION.md).
 | [`extras/`](extras) | Red lógica en SystemVerilog (LLNN) y notas de instalación. |
 
 No incluido por tamaño: la imagen Docker de FINN y los vídeos (se alojarán aparte). Faltan también los scripts de análisis del capítulo 4 y las fuentes de la memoria.
+
+## Licencia y autoría
+
+© 2026 Miguel Simón Chica y Rubén Nieto Capuchino (tutor).
+
+- **Código:** licencia MIT (`LICENSE`). Hay que conservar el aviso de autoría.
+- **Memoria, notebooks y documentación:** CC BY 4.0 (`LICENSE-docs.txt`): se puede reutilizar citando a los autores.
+- **Dataset de JdeRobot** (`05_dataset/`): mantiene la licencia de su origen.
+- **FINN** (repositorio enlazado): BSD-3 de AMD/Xilinx.
+- Para citar: ver `CITATION.cff`.
