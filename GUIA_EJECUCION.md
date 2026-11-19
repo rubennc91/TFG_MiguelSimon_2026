@@ -54,7 +54,7 @@ source /home/ws/install/setup.bash
 ros2 launch /home/ws/src/CustomRobots/f1/launch/f1.launch.py \
   mode:=ackermann sensor:=camera x:=24.345100 y:=-31.574300 z:=0.001001 Y:=0.016398
 ```
-4. En otra terminal (`docker exec -it f1_gazebo bash`) compilar el paquete **(a confirmar, `colcon build` en `/f1_ws`)** y lanzar el controlador:
+4. En otra terminal (`docker exec -it f1_gazebo bash`) compilar el paquete con `colcon` (comprobado en el contenedor de Miguel: existen `/f1_ws/build`, `install` y `log` generados por `colcon`, y el controlador corría con `ros2 run f1_neural_controller f1_controller --ros-args -p show_gui:=false`) y lanzarlo:
 ```bash
 cd /f1_ws && colcon build --packages-select f1_neural_controller
 bash /f1_ws/run_controller.sh

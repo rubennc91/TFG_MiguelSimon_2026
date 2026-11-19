@@ -26,3 +26,9 @@ No incluido por tamaño: la imagen Docker de FINN y los vídeos (se alojarán ap
 - **Dataset de JdeRobot** (`05_dataset/`): mantiene la licencia de su origen.
 - **FINN** (repositorio enlazado): BSD-3 de AMD/Xilinx.
 - Para citar: ver `CITATION.cff`.
+
+## Documentación técnica
+
+`docs/tecnica/` explica el flujo (FINN, Verilator, ROS 2/Gazebo, pendientes). Las herramientas de verificación están en `03_simulacion_verilator/herramientas/` (lista de fuentes para Verilator, script de compilación, autotest y modelo de referencia en numpy; este último necesita `pip install onnx numpy`).
+
+La memoria del TFG en PDF no está en este repositorio.
