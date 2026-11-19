@@ -47,7 +47,13 @@ docker run --rm -it --gpus all --network host \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw -v ~/f1_ws:/f1_ws \
   --entrypoint /bin/bash --name f1_gazebo jderobot/robotics-academy:6.1.8
 ```
-3. Dentro, lanzar el circuito de Montmeló con el coche:
+3. Dentro, lanzar primero el circuito de Montmeló (terminal 1) y después el coche (terminal 2, con `docker exec -it f1_gazebo bash`). Comprobado en el contenedor de Miguel, donde estaban las dos órdenes en marcha:
+```bash
+source /opt/ros/humble/setup.bash
+source /home/ws/install/setup.bash
+ros2 launch /opt/jderobot/Launchers/montmelo_circuit.launch.py     # terminal 1: mundo
+```
+Terminal 2:
 ```bash
 source /opt/ros/humble/setup.bash
 source /home/ws/install/setup.bash
@@ -66,3 +72,10 @@ bash /f1_ws/run_controller.sh
 - Imagen Docker de FINN (8,75 GB) y vídeos: pendientes de alojar fuera de GitHub.
 - Los scripts de análisis del capítulo 4 (MAE/RMSE, mediana de 15, gráficas) y las fuentes LaTeX de la memoria no estaban en la cuenta del servidor; hay que buscarlos en el equipo de Miguel o en Overleaf.
 - Las rutas absolutas `/home/miguel_tfg/...` dentro de los scripts hay que adaptarlas.
+
+## Notas de la prueba de reproducción (19/11/2026)
+- Reconstruir `obj_dir` con `make`, recorrer el dataset y consultar el servidor UDP da resultados **idénticos** a los de Miguel (7.294 fotogramas, mismas v y w y mismos ciclos).
+- `colcon build --packages-select f1_neural_controller` funciona desde las fuentes del repositorio.
+- Probado **sin ventana y sin GPU** (Xvfb, render por software): el circuito y el coche arrancan, la cámara publica a unos 19 Hz, el controlador recibe respuesta del servidor (≈25 ms por inferencia) y el coche avanza hasta la primera curva. Con el render por software el bucle del controlador iba a ~1 Hz y el coche no completó la vuelta, así que **la vuelta completa no se ha verificado**: hay que repetirla con GPU o con pantalla, como la usó Miguel (por AnyDesk).
+- Gazebo arranca en pausa si se lanza sin interfaz gráfica: quitar la pausa con `gz service -s /world/default/control --reqtype gz.msgs.WorldControl --reptype gz.msgs.Boolean --req "pause: false"`.
+- Antes de lanzar el servidor, comprobar que nadie ocupa el puerto 5005: `ss -lunp | grep 5005`.
