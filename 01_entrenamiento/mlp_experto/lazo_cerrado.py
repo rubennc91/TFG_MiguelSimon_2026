@@ -47,6 +47,12 @@ class Lazo(Node):
         if a.servidor:
             from mlp_experto.cliente_udp import ClienteUDP
             host, puerto = a.servidor.split(":"); self.cliente = ClienteUDP(host, int(puerto), timeout=a.timeout_servidor)
+        if a.hil_tcp:                                          # HIL con la placa: pasarela TCP -> ROS 2 (Cyclone DDS) -> placa
+            from mlp_experto.trama_hil import ClienteHilTcp
+            host, puerto = a.hil_tcp.split(":"); self.cliente = ClienteHilTcp(host, int(puerto), timeout=a.timeout_servidor)
+        elif a.hil_ros:                                          # la placa (o su emulador) recibe la trama 1280x720 por ROS y devuelve v, w por ROS
+            from mlp_experto.trama_hil import ClienteHilRos
+            self.cliente = ClienteHilRos(timeout=a.timeout_servidor)
         self.gz = None
         if a.pausa:                                            # lazo sincronizado: Gazebo se detiene mientras el servidor (IP simulado) responde
             from gz.transport13 import Node as GzNode
@@ -104,13 +110,13 @@ class Lazo(Node):
         elif (self.n_img - 1) % self.paso_hz != 0:              # lazo más lento que la cámara: se descarta esta imagen
             return
         x, y, yaw, v_real = self.pose
-        vec = vector_desde_bgr(self.puente.imgmsg_to_cv2(msg, "bgr8"), self.tam)
-        if self.cliente is not None:                           # red cuantizada en un servidor UDP
+        bgr = self.puente.imgmsg_to_cv2(msg, "bgr8")
+        if self.cliente is not None:                           # red cuantizada en un servidor UDP, o la placa por ROS (HIL)
             from mlp_experto.cliente_udp import a_bytes
             if self.gz is not None:
                 self.pausar(True)
             t_srv = time.time()
-            r = self.cliente.consultar(a_bytes(vec))
+            r = self.cliente.consultar(bgr if (self.a.hil_ros or self.a.hil_tcp) else a_bytes(vector_desde_bgr(bgr, self.tam)))
             self.lat_srv.append(time.time() - t_srv)
             if self.gz is not None:
                 self.pausar(False)
@@ -120,7 +126,7 @@ class Lazo(Node):
                 return                                         # sin respuesta: no se manda orden nueva
             v, w = r
         else:
-            v, w = decodificar(self.red(vec))
+            v, w = decodificar(self.red(vector_desde_bgr(bgr, self.tam)))
         v, w = self.ema.paso(v, w)
         c = Twist(); c.linear.x, c.angular.z = limitar_velocidad(v, self.a.v_max) * self.a.factor_lin, w * self.a.factor_ang
         self.pendientes.append((t + self.a.retardo, c))
@@ -148,12 +154,12 @@ class Lazo(Node):
         c = Twist(); self.pub.publish(c)
         self.csv.close()
         cte = np.array(self.cte)
-        r = dict(circuito=self.a.circuito, sentido=self.a.sentido, pesos=str(self.a.pesos or self.a.servidor), vueltas_completadas=round(vuelta, 3),
+        r = dict(circuito=self.a.circuito, sentido=self.a.sentido, pesos=str(self.a.pesos or self.a.servidor or ("hil-ros" if self.a.hil_ros else "hil-tcp" if self.a.hil_tcp else "")), vueltas_completadas=round(vuelta, 3),
                  tiempo_s=round(t - self.t0, 1), atascado=atascado, pos_atasco=self.pos_atasco, cte_max=round(float(cte.max()) if len(cte) else 0.0, 2), error=error,
                  frac_fuera_del_carril=round(float((cte > CTE_FUERA).mean()) if len(cte) else 0.0, 4), v_media_real=round(float(np.mean(self.vs)) if self.vs else 0.0, 2),
                  resolucion=self.a.resolucion, v_max=self.a.v_max, suavizado=self.a.suavizado, n_modelos=len([r for r in self.a.pesos.split(',') if r]), factor_lin=self.a.factor_lin, factor_ang=self.a.factor_ang, hz=self.a.hz, retardo=self.a.retardo, pausa=self.a.pausa,
                  hz_efectiva=round(float(1 / np.median(np.diff(self.t_decs))), 2) if len(self.t_decs) > 2 else None,
-                 latencia_servidor_s=dict(media=round(float(np.mean(self.lat_srv)), 3), max=round(float(np.max(self.lat_srv)), 3)) if self.lat_srv else None,
+                 latencia_servidor_s=dict(media=round(float(np.mean(self.lat_srv)), 3), p95=round(float(np.percentile(self.lat_srv, 95)), 3), max=round(float(np.max(self.lat_srv)), 3)) if self.lat_srv else None,
                  retraso_imagen_s=dict(media=round(float(np.mean(self.retraso_img)), 3), max=round(float(np.max(self.retraso_img)), 3)) if self.retraso_img else None)
         Path(f"{self.a.salida}.json").write_text(json.dumps(r, indent=2))
         self.get_logger().info("RESULTADO " + json.dumps(r))
@@ -170,6 +176,8 @@ def main():
     p.add_argument("--v-max", type=float, default=0.0, help="tope de la velocidad lineal en m/s (0 = sin tope)")
     p.add_argument("--hz", type=float, default=20.0, help="frecuencia del lazo de control (la cámara va a 20 Hz: se usa 1 de cada N imágenes)")
     p.add_argument("--retardo", type=float, default=0.0, help="s entre ver la imagen y aplicar la orden (cadena de visión + IP + ARM + motores)")
+    p.add_argument("--hil-ros", action="store_true", help="HIL: publica la trama 1280x720 en /f1_camera/image y espera v, w en /hil/cmd_vel (nodo de la placa)")
+    p.add_argument("--hil-tcp", default="", help="HIL con la placa real: host:puerto de la pasarela TCP (04_ros2_gazebo/herramientas/pasarela_hil.py)")
     p.add_argument("--pausa", action="store_true", help="detiene Gazebo mientras el servidor responde (lazo con el IP simulado en Verilator, que es más lento que el tiempo real)")
     p.add_argument("--timeout-servidor", type=float, default=0.5, help="s de espera a la respuesta del servidor UDP")
     p.add_argument("--factor-lin", type=float, default=1.0); p.add_argument("--factor-ang", type=float, default=1.0)

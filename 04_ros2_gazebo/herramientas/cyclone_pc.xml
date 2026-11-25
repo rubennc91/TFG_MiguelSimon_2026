@@ -1,0 +1,8 @@
+<CycloneDDS><Domain>
+  <General><Interfaces><NetworkInterface address="192.168.50.1"/></Interfaces></General>
+  <Discovery>
+    <ParticipantIndex>auto</ParticipantIndex>
+    <Peers><Peer address="192.168.50.2"/></Peers>
+  </Discovery>
+  <Internal><SocketReceiveBufferSize min="128kB"/></Internal>
+</Domain></CycloneDDS>
