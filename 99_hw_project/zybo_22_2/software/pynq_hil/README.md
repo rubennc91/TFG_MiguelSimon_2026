@@ -4,10 +4,10 @@ Basado en `pynq/pl_ros_node.py` de https://github.com/rubennc91/madgwick-zybo-hl
 
 Flujo: Gazebo (PC) publica `sensor_msgs/Image` 1280x720 → Ethernet → `hil_node.py` la deja en la DDR → `axi_dma_2` (MM2S, una orden = una trama) → conversor 8→24 b → `axis_sof` (TUSER en el primer píxel) → `axis_switch_hil` → reductor → IP de FINN → `axi_dma_1` → v, w → `geometry_msgs/Twist` en `/hil/cmd_vel` → Ethernet → PC. Latencias en `/hil/latencia`.
 
-**Estado: compila y sintetiza (bitstream en `../../resultados/z7-20_hil_cnn_plegada/`); NADA de esto se ha probado en placa.**
+**Estado (25/11/2026): probado en la Zybo Z7-20 real.** La prueba sin ROS da `|dif| max 0` en la imagen reducida y v, w iguales a Verilator (18,6 ms por trama); el lazo cerrado con Gazebo completa Silverstone (ver `docs/flujo_finn_zybo.md`, sección 8). Bitstream en `../../resultados/z7-20_hil_cnn_plegada/` (IP de FINN con TLAST propio: el DMA de salida ya no marca DMAIntErr y `hil_node.py` trata cualquier error como real).
 
 ## Pasos
-1. Imagen PYNQ para la Z7-20 (https://github.com/nick-petrovsky/PYNQ-ZYBO/releases/tag/v0.1.0), ROS 2 mínimo de la placa (`ros2_armhf` y `pynq/GUIA_REPLICAR.md` del repo de madgwick), IP fija 192.168.2.99 y PC en 192.168.2.1.
+1. Imagen PYNQ para la Z7-20 (https://github.com/nick-petrovsky/PYNQ-ZYBO/releases/tag/v0.1.0), ROS 2 mínimo de la placa (`ros2_armhf` y `pynq/GUIA_REPLICAR.md` del repo de madgwick), IP fija 192.168.50.2 de la placa y 192.168.50.1 del PC (`cyclone_board.xml` y `herramientas/cyclone_pc.xml`; `herramientas/pasarela_hil.py` hace de puente TCP↔ROS 2 Cyclone porque Fast DDS del contenedor y Cyclone no se descubren). La ROS mínima de la placa no trae `sensor_msgs`: la trama viaja como `std_msgs/UInt8MultiArray` (RELIABLE).
 2. Copiar a `/home/xilinx/zybo_hil/`: de `resultados/z7-20_hil_cnn_plegada/`: `system_v2_wrapper.bit`, `.hwh`, `tabla_entrada.json`; de esta carpeta: `hil_node.py`, `reductor_ref.py`, `cyclone_board.xml`, `start_hil.sh`.
 3. **Prueba sin ROS** (valida el camino de la imagen): `sudo -i /home/xilinx/zybo_hil/start_hil.sh solo_prueba`. Debe dar `|dif| max 0` en la imagen reducida (el PL idéntico a `reductor_ref.py`) y v, w del IP.
 4. Con ROS: `sudo -i /home/xilinx/zybo_hil/start_hil.sh` (`IMAGEN=/tema` para cambiar el tema de la imagen).

@@ -25,7 +25,7 @@ from qonnx.core.datatype import DataType
 from qonnx.core.modelwrapper import ModelWrapper
 from qonnx.transformation.merge_onnx_models import MergeONNXModels
 
-from estimar import MemModeCompat, tidy
+from estimar import MemModeCompat, pasos_con_tlast, tidy
 from modelo_qat import CNNq
 
 
@@ -40,6 +40,7 @@ def main():
     p.add_argument("--folding", default=None, help="JSON de folding (por defecto PE=SIMD=1)")
     p.add_argument("--onnx-q", default=None, help="modelo_uint8_q.onnx de verificar_entrada_reductor.py: la cuantización de entrada la hace el reductor y el IP recibe q (UINT7)")
     p.add_argument("--ooc", action="store_true", help="genera el IP unido (stitched) y sintetiza en Vivado fuera de contexto: recursos y tiempos reales tras síntesis")
+    p.add_argument("--sin-tlast", action="store_true", help="no añade el TLastMarker de FINN al final (el IP no genera TLAST)")
     p.add_argument("--verificar", type=int, default=0, help="N imágenes reales: genera el IP y compara la simulación rtlsim con Brevitas (lento: HLS + Verilator)")
     p.add_argument("--datos", default=str(Path.home() / "datasets/experto_f1/cache/experto_f1_v2+experto_f1_v3_entrenamiento_32x24.npz"))
     a = p.parse_args()
@@ -76,7 +77,7 @@ def main():
     cfg = build_cfg.DataflowBuildConfig(
         output_dir=str(out / "salida"), folding_config_file=a.folding, mvau_wwidth_max=a.wwidth_max, synth_clk_period_ns=10.0,
         board=None, fpga_part=a.parte, default_mem_mode=MemModeCompat("const"), force_rtl_conv_inp_gen=not a.hls_conv, enable_build_pdb_debug=False,
-        generate_outputs=salidas, verify_steps=verif, save_intermediate_models=True, **extra)
+        generate_outputs=salidas, verify_steps=verif, save_intermediate_models=True, steps=None if a.sin_tlast else pasos_con_tlast(), **extra)
     build.build_dataflow_cfg(a.onnx_q or str(out / "modelo_uint8.onnx"), cfg)
     est = json.loads((out / "salida" / "report" / "estimate_layer_resources.json").read_text())
     rend = json.loads((out / "salida" / "report" / "estimate_network_performance.json").read_text())

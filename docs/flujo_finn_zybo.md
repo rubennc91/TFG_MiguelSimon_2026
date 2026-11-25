@@ -127,7 +127,7 @@ PLACA=z7-10 VARIANTE=sin_hdmi RED=cnn|mlp HASTA=impl vivado -mode batch -source 
 ## 7. Pendiente
 
 1. Cerrar tiempo de la CNN en Z7-10 (reloj del VDMA o recortes) si se quiere esa placa.
-2. Prueba de retardo y frecuencia de lazo en el simulador (en curso; ver nota de escala abajo).
+2. Prueba de retardo y frecuencia de lazo en el simulador (hecha; ver nota de escala abajo y la sección 8).
 3. (hecho, ver 3c) IP de FINN en el lazo de Gazebo. Falta: plegado de la CNN para simulación, MLP en el lazo, lazo sin pausar el simulador, prueba en placa.
 4. Software de la ARM (DMA, interrupciones, escritura de los dos valores) y prueba en placa; comparar imagen real y simulada.
 5. Prueba con TurtleBot: escala de velocidades v_real = s·τ·v_sim, w_real = τ·w_sim.
@@ -146,3 +146,55 @@ PLACA=z7-10 VARIANTE=sin_hdmi RED=cnn|mlp HASTA=impl vivado -mode batch -source 
 y una sola vuelta a cámara lenta. A velocidad completa 50 ms son 0,44 m de recorrido y ningún modelo lo tolera; a 2,2 m/s toleran hasta 5 Hz con 100 ms de retardo.
 La tolerancia depende de la velocidad, no de la red. El robot real va unas 40 veces más despacio que el coche simulado a velocidad completa (v_real = s·τ·v_sim), de modo
 que 10–20 Hz con ~40 ms de latencia total queda muy dentro de la zona tolerada, pero no se ha medido con el robot real.
+
+## 8. Actualización 25/11/2026: reductor bilineal, plegado, HIL con la placa y TLAST
+
+**Reductor bilineal.** El reductor HLS hacía la media de cada bloque de 30×30; el entrenamiento usa `cv2.INTER_LINEAR`, que equivale a la media de los 2×2 píxeles centrales de cada bloque. La diferencia bastaba para que el lazo
+cerrado fallara (0,685 vueltas en el HIL emulado). Ahora `REDUCCION_LINEAL=1` (por defecto) calcula `(a+b+c+d+2)>>2` sobre los píxeles (14,15) de cada bloque; `REDUCCION_LINEAL=0` conserva la media por bloques.
+Sin división, el reductor ya no usa DSP. Verificado en C (banco de pruebas), RTL, numpy (`pynq_hil/reductor_ref.py`) y en la placa (bit a bit).
+
+**¿Por qué la red no usa DSP?** Con pesos y activaciones de 4 bits un producto es una tabla de unas pocas LUT; FINN usa `resType=lut` en las MVAU y la CNN completa sale con 0 DSP. Forzar `resType=dsp` da 49 DSP y ahorra
+unas 1,5k LUT (estimación analítica); en la 7-series un DSP48E1 no empaqueta varios productos de 4 bits, así que cada uno desperdicia el multiplicador de 25×18.
+
+**Cuánto se puede plegar/paralelizar** (`estimacion_recursos/folding/generar_folding.py T [lut|dsp]` da el PE·SIMD mínimo para T ciclos; estimación analítica de FINN, que sobreestima):
+
+| Objetivo T (ciclos) | LUT estimadas |
+|---|---|
+| 6144 | 10,2k |
+| 3072 | 8,1k |
+| 2304 | 8,6k |
+| 1800 | 14,7k |
+| 3072 con DSP | 6,6k + 49 DSP |
+
+Suelo ≈1799 ciclos: el generador de ventana (`ConvolutionInputGenerator_rtl_0`) procesa 3 canales como máximo por ciclo. Hace falta `mvau_wwidth_max` alto (1024; el valor por defecto, 36, limita el SIMD).
+Resultados con síntesis fuera de contexto (OOC, Z7-20, IP con TLAST):
+
+| IP | Ciclos (Verilator) | s/imagen en Verilator | LUT | BRAM18 / BRAM36 | DSP | WNS |
+|---|---|---|---|---|---|---|
+| Original (PE=SIMD=1) | 91 425 | 0,108 | 5 713 | 23 / 9 | 0 | +1,20 |
+| Plegada ×8 | 10 716 | 0,009 | 6 730 | 21 / 8 | 0 | +0,98 |
+| Paralela (T=1800) | 4 729 | 0,004 | 7 946 | 22 / 6 | 0 | +0,74 |
+
+Las tres dan exactamente la misma salida (6 imágenes aleatorias comparadas; salida bit a bit). La estimación analítica daba 14,6k LUT para la paralela y la síntesis real 7,9k.
+
+**Tiempos del sistema completo (Gazebo + IP en Verilator, Silverstone, 1 vuelta, un solo intento por celda).**
+
+| Modo | IP | Verilator por imagen | Vuelta | Tiempo simulado | Tiempo real | cte máx |
+|---|---|---|---|---|---|---|
+| 0,5×, 5 Hz, Gazebo pausado | CNN original | 0,114 s | 1,00 | 157,7 s | 288 s | 0,71 m |
+| ídem | plegada | 0,010 s | 1,00 | 158,0 s | 223 s | 0,42 m |
+| ídem | paralela | 0,004 s | 1,00 | 158,8 s | 222 s | 0,81 m |
+| 1,0×, 10 Hz, sin pausa | original / plegada / paralela | 0,115 / 0,010 / 0,004 s | 0,15 / 0,71 / 0,13 | — | — | ≥1,0 m |
+
+Plegar reduce el tiempo real de la vuelta de 288 s a 223 s (−23 %); después, el simulador (Gazebo + ROS) domina y la versión paralela no mejora (222 s). Las salidas de la red son idénticas entre configuraciones, así que las diferencias de cte
+(0,42–0,81 m) son variabilidad del simulador entre ejecuciones, no de la red (no se ha medido su dispersión). A 1,0× y 10 Hz sin pausa ninguna configuración completa la vuelta (el límite es el control a esa velocidad, no el IP).
+
+**HIL con la Zybo Z7-20 real (PYNQ 3.0.1, sin cámara).** Gazebo (640×480) → `trama_hil.py` (1280×720 con bandas negras de 160 columnas) → ROS 2 (`std_msgs/UInt8MultiArray`, fiabilidad RELIABLE; pasarela TCP porque Fast DDS del contenedor y Cyclone DDS de la placa no se descubren)
+→ DDR → `axi_dma_2` (MM2S) → conversor 8→24 b → `axis_sof` (TUSER) → reductor → FINN → `axi_dma_1` (S2MM) → (v, w). Lo construye `HIL=1 crear_proyecto.tcl` (`agregar_hil.tcl`); software en `software/pynq_hil` (`hil_node.py`, `start_hil.sh`, README).
+Resultados: reductor bit a bit igual a numpy; v,w iguales a Verilator; 18,5 ms por trama en la placa. Lazo cerrado completo con Gazebo (Silverstone, 0,5×, 5 Hz, pausa): 1,001 vueltas, cte máx 0,45 m, latencia del servidor
+media 0,54 s, p95 0,45 s, máx 8,0 s (los picos no se han investigado). Es una sola vuelta; no hay estadísticas con placa.
+
+**TLAST de la salida.** El IP de FINN no generaba TLAST y el DMA de salida marcaba `DMAIntErr` (aunque los 4 bytes eran correctos). Ahora lo genera FINN: `estimar.py`/`estimar_cnn.py` añaden un paso propio (`step_tlast`, `InsertTLastMarker(external=False, dynamic=False)`
+tras insertar los FIFO, con su IP de HLS generado aparte y `GiveUniqueNodeNames`); coste ≈ +50 LUT (Z7-20 completa, sin HDMI: CNN plegada 14.760 LUT, MLP 16.639, HIL 16.049; 0 DSP; WNS −2,45 ns solo en las entradas MIPI, como antes). Probado en la placa: la prueba sin ROS sigue dando `|dif| max 0` y v, w iguales, con `hil_node.py` tratando cualquier error de DMA como real (ya no hay DMAIntErr). `--sin-tlast` desactiva el paso. Los IP `tl_*` (MLP, CNN original, plegada y paralela) se reconstruyeron así.
+
+**Pendiente tras esto:** probar la cámara en la placa (I2C, orden de colores `ENTRADA_ROJO_EN_ALTO`) y la aplicación bare-metal; estadísticas del HIL con placa (varias vueltas/semillas); MLP cuantizada entrenada solo con v2 (no comparable punto por punto); origen de los picos de latencia de 8 s.

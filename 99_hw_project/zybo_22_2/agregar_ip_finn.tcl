@@ -1,7 +1,7 @@
 # Integra el IP de FINN (CNN o MLP) tras el reductor en el diseño de bloques abierto. Se llama desde crear_proyecto.tcl con RED=cnn|mlp.
 #   reductor(8 b, 150 MHz) -> axis_switch_1 -+-> M00 -> axi_dma_0 (captura de la imagen reducida, depuración)
 #                                            +-> M01 -> conversor de ancho (8 -> 24 CNN / 32 MLP b) -> conversor de reloj (150 -> 100 MHz) -> finn_design -> axi_dma_1 (2 salidas de 8 b)
-# El IP de FINN no genera TLAST: el DMA de salida se arma con la longitud exacta (4 bytes: 2 x int8... ver m_axis_0_tdata, 16 bits).
+# El IP de FINN genera TLAST cada 2 transferencias (2 x INT16 = v, w = 4 bytes) con el TLastMarker del builder (estimar*.py, step_tlast), así el DMA de salida cierra el paquete sin DMAIntErr.
 proc copiar_conexion {origen destino pin_o pin_d} {   ;# conecta pin_d de 'destino' a la misma red que pin_o de 'origen'
   set n [get_bd_nets -of_objects [get_bd_pins $origen/$pin_o]]
   connect_bd_net -net $n [get_bd_pins $destino/$pin_d]

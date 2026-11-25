@@ -46,6 +46,28 @@ class MLPw4a8(nn.Module):
         return self.predictor(self.relu2(self.fx(self.relu1(self.fc1(self.quant_in(x))))))
 
 
+
+def step_tlast(model, cfg):
+    """Paso propio del builder: TLastMarker_hls al final del grafo (TLAST cada 2 valores = v, w, iteraciones estáticas, sin puerto de control).
+    El IP de FINN no genera TLAST por defecto y el DMA de salida (S2MM) lo necesita para cerrar el paquete.
+    Tiene que ir después de insertar los FIFO (InsertFIFO no admite el marcador como último nodo) y hay que generar su IP de HLS aparte."""
+    from finn.transformation.fpgadataflow.hlssynth_ip import HLSSynthIP
+    from finn.transformation.fpgadataflow.insert_tlastmarker import InsertTLastMarker
+    from finn.transformation.fpgadataflow.prepare_ip import PrepareIP
+    from qonnx.transformation.general import GiveUniqueNodeNames
+    model = model.transform(InsertTLastMarker(both=False, external=False, dynamic=False))
+    model = model.transform(GiveUniqueNodeNames())   # el nodo nuevo no tiene nombre y HLS lo necesita como función superior
+    model = model.transform(PrepareIP(cfg._resolve_fpga_part(), cfg._resolve_hls_clk_period()))
+    return model.transform(HLSSynthIP())
+
+
+def pasos_con_tlast():
+    """Pasos por defecto del builder de FINN con step_tlast justo antes de unir el IP (tras los FIFO)."""
+    pasos = list(build_cfg.default_build_dataflow_steps)
+    pasos.insert(pasos.index("step_create_stitched_ip"), step_tlast)
+    return pasos
+
+
 def tidy(m):
     for t in (InferShapes(), FoldConstants(), GiveUniqueNodeNames(), GiveReadableTensorNames(), InferDataTypes(), RemoveStaticGraphInputs()):
         m = m.transform(t)
@@ -69,6 +91,7 @@ def main():
     p.add_argument("--modelo", default=None, help="carpeta con modelo_q.pt y meta.json (pesos reales; por defecto pesos aleatorios)")
     p.add_argument("--onnx-q", default=None, help="modelo_uint8_q.onnx de verificar_entrada_reductor.py: la cuantización de entrada la hace el reductor y el IP recibe q (UINT7)")
     p.add_argument("--ooc", action="store_true", help="genera el IP unido y sintetiza fuera de contexto (recursos y tiempos reales tras síntesis)")
+    p.add_argument("--sin-tlast", action="store_true", help="no añade el TLastMarker de FINN al final (el IP no genera TLAST)")
     p.add_argument("--act-bits", type=int, default=8, help="bits de las activaciones ocultas (8 = w4a8; 4 = w4a4)")
     a = p.parse_args()
     out = Path(a.salida); shutil.rmtree(out, ignore_errors=True); out.mkdir(parents=True)
@@ -111,7 +134,7 @@ def main():
         output_dir=str(out / "salida"), folding_config_file=str(out / "folding.json"),
         mvau_wwidth_max=36, synth_clk_period_ns=10.0, board=None, fpga_part=a.parte,
         default_mem_mode=MemModeCompat("const"),
-        generate_outputs=salidas, save_intermediate_models=True)
+        generate_outputs=salidas, save_intermediate_models=True, steps=None if a.sin_tlast else pasos_con_tlast())
     build.build_dataflow_cfg(a.onnx_q or str(out / "modelo_uint8.onnx"), cfg)
     est = json.loads((out / "salida" / "report" / "estimate_layer_resources.json").read_text())
     rend = json.loads((out / "salida" / "report" / "estimate_network_performance.json").read_text())

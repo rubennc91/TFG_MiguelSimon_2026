@@ -62,11 +62,9 @@ class PlHil:
         t = time.time()
         while True:
             s = d.read(sr)
-            # El IP de FINN no genera TLAST: al llenarse el buffer el DMA de salida marca IOC y además DMAIntErr (los 4 bytes ya están escritos y son correctos);
-            # esa combinación se da por buena. Cualquier otro error (decodificación, esclavo) es real. Se resetea el DMA en cada trama.
-            if s & SR_ERR & ~SR_INTERR: raise RuntimeError('error de DMA, SR=0x%x' % s)
+            # El IP de FINN genera TLAST (TLastMarker del builder): el DMA cierra el paquete sin DMAIntErr. Cualquier bit de error es real.
+            if s & SR_ERR: raise RuntimeError('error de DMA, SR=0x%x' % s)
             if s & SR_IOC: return
-            if s & SR_INTERR: raise RuntimeError('error interno de DMA sin completar, SR=0x%x' % s)
             if time.time() - t > t_max: raise TimeoutError('el DMA no termina (SR=0x%x)' % s)
 
     def inyectar(self, rgb, destino='finn', t_max=2.0):

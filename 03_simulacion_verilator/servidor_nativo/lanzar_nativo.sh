@@ -5,11 +5,11 @@
 set -euo pipefail
 AQUI="$(cd "$(dirname "$0")" && pwd)"; REPO="$(cd "$AQUI/../.." && pwd)"; FINN="${FINN_DIR:-$HOME/finn_2026/finn}"
 IMG="${FINN_IMG:-xilinx/finn:v0.9-dirty.xrt_202210.2.13.466_18.04-amd64-xrt}"
-# IP con entrada UINT8 (hwq8_*); BUILD_ANTIGUO=1 usa el IP anterior (UINT7, paso de 7 bits)
-declare -A BUILD=([cnn]=/tmp/finn_est/hwq8_cnn_cq4s6_z720 [mlp]=/tmp/finn_est/hwq8_mlp_q4s0_z720); ELEM=8
+# IP con entrada UINT8 y TLAST de FINN (tl_*); BUILD_ANTIGUO=1 usa el IP anterior (UINT7, paso de 7 bits)
+declare -A BUILD=([cnn]=/tmp/finn_est/tl_cnn_z720 [mlp]=/tmp/finn_est/tl_mlp_z720); ELEM=8
 [ "${BUILD_ANTIGUO:-0}" = 1 ] && { BUILD=([cnn]=/tmp/finn_est/hwq_cnn_cq4s6_z720 [mlp]=/tmp/finn_est/hwq_mlp_q4s0_z720); ELEM=7; }
-# PLEGADO=1: CNN con plegado x8 (hwq8_cnn_plegado_z720); el binario va a nativo_cnnp para no pisar el de la CNN original
-SUF=""; [ "${PLEGADO:-0}" = 1 ] && { BUILD[cnn]=/tmp/finn_est/hwq8_cnn_plegado_z720; SUF=p; [ "${PARALELO:-0}" = 1 ] && { BUILD[cnn]=/tmp/finn_est/hwq8_cnn_paralelo_z720; SUF=pp; }; }
+# PLEGADO=1: CNN con plegado x8 (tl_cnn_plegado_z720); el binario va a nativo_cnnp para no pisar el de la CNN original
+SUF=""; [ "${PLEGADO:-0}" = 1 ] && { BUILD[cnn]=/tmp/finn_est/tl_cnn_plegado_z720; SUF=p; [ "${PARALELO:-0}" = 1 ] && { BUILD[cnn]=/tmp/finn_est/tl_cnn_paralelo_z720; SUF=pp; }; }
 declare -A TABLA=([cnn]=/tmp/finn_est/entrada_cnn/tabla_entrada.json [mlp]=/tmp/finn_est/entrada_mlp/tabla_entrada.json)
 base=(--init -w "$FINN" -v "$FINN:$FINN" -v "$REPO:$REPO:ro" -v /tmp/finn_est:/tmp/finn_est -e FINN_BUILD_DIR=/tmp/finn_est -e FINN_ROOT="$FINN"
   -e OHMYXILINX="$FINN/deps/oh-my-xilinx" -v /tools/Xilinx:/tools/Xilinx -e XILINX_VIVADO=/tools/Xilinx/Vivado/2022.2 -e VIVADO_PATH=/tools/Xilinx/Vivado/2022.2
