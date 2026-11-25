@@ -35,6 +35,7 @@ def main():
     p.add_argument("--salida", required=True)
     p.add_argument("--tam", default="32x24")
     p.add_argument("--parte", default="xc7z020clg400-1")
+    p.add_argument("--wwidth-max", type=int, default=36, help="ancho máximo (bits) del flujo de pesos de una capa MVAU: limita PE*SIMD*bits de peso")
     p.add_argument("--hls-conv", action="store_true", help="generador de ventanas HLS (solo imágenes cuadradas) en vez del RTL")
     p.add_argument("--folding", default=None, help="JSON de folding (por defecto PE=SIMD=1)")
     p.add_argument("--onnx-q", default=None, help="modelo_uint8_q.onnx de verificar_entrada_reductor.py: la cuantización de entrada la hace el reductor y el IP recibe q (UINT7)")
@@ -73,7 +74,7 @@ def main():
             if o not in salidas: salidas.append(o)
     os.environ["FINN_BUILD_DIR"] = str(out / "build")
     cfg = build_cfg.DataflowBuildConfig(
-        output_dir=str(out / "salida"), folding_config_file=a.folding, mvau_wwidth_max=36, synth_clk_period_ns=10.0,
+        output_dir=str(out / "salida"), folding_config_file=a.folding, mvau_wwidth_max=a.wwidth_max, synth_clk_period_ns=10.0,
         board=None, fpga_part=a.parte, default_mem_mode=MemModeCompat("const"), force_rtl_conv_inp_gen=not a.hls_conv, enable_build_pdb_debug=False,
         generate_outputs=salidas, verify_steps=verif, save_intermediate_models=True, **extra)
     build.build_dataflow_cfg(a.onnx_q or str(out / "modelo_uint8.onnx"), cfg)
