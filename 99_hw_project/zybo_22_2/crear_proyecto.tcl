@@ -10,12 +10,13 @@ set_param board.repoPaths [list $aqui/board_files]
 create_project -force proy $carpeta -part $parte
 if {$placa eq "z7-10"} { set_property board_part digilentinc.com:zybo-z7-10:part0:1.1 [current_project] }
 set variante [expr {[info exists ::env(VARIANTE)] ? $::env(VARIANTE) : "completa"}]   ;# completa | sin_hdmi
+set hil [expr {[info exists ::env(HIL)] ? $::env(HIL) : 0}]                          ;# 1: HIL, la imagen 1280x720 entra desde la DDR por un DMA (MM2S) en lugar de la cámara
 set red [expr {[info exists ::env(RED)] ? $::env(RED) : "ninguna"}]                    ;# ninguna | cnn | mlp: IP de FINN que se integra tras el reductor (exige VARIANTE=sin_hdmi)
 set reductor_repo [expr {[info exists ::env(REDUCTOR_REPO)] ? $::env(REDUCTOR_REPO) : ($red eq "ninguna" ? "reductor" : "reductor_$red")}]   ;# reductor (planar) | reductor_hwc (CNN, sin tabla) | reductor_cnn / reductor_mlp (con tabla de entrada)
 if {$red ne "ninguna" && $variante ne "sin_hdmi"} { puts "ERROR: RED=$red exige VARIANTE=sin_hdmi"; exit 1 }
 set_property ip_repo_paths [list $aqui/fuentes/ip_repo/local $aqui/fuentes/ip_repo/digilent_ip $aqui/fuentes/ip_repo/digilent_if $aqui/fuentes/ip_repo/$reductor_repo {*}[expr {$red eq "ninguna" ? {} : [list $aqui/fuentes/ip_repo/finn_$red]}]] [current_project]
 update_ip_catalog
-add_files -norecurse [glob $aqui/fuentes/hdl/*.vhd]
+add_files -norecurse [concat [glob $aqui/fuentes/hdl/*.vhd] [glob -nocomplain $aqui/fuentes/hdl/*.v]]
 if {$variante eq "sin_hdmi"} {
   # sin la salida de vídeo: se quitan del XDC las líneas del HDMI y de los relojes de píxel
   file mkdir $carpeta/constrs_filtrados
@@ -40,6 +41,7 @@ if {$variante eq "sin_hdmi"} {
   set_property -dict [list CONFIG.c_include_mm2s {0}] [get_bd_cells axi_vdma_0]
 }
 if {$red ne "ninguna"} { source $aqui/agregar_ip_finn.tcl }
+if {$hil} { source $aqui/agregar_hil.tcl }
 upgrade_ip -quiet [get_ips -all]                       ;# IP creadas con 2023.1 / subnúcleos bloqueados; el reductor propio también
 report_ip_status
 validate_bd_design

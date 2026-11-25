@@ -272,7 +272,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>a1f2f578</spirit:value>
+            <spirit:value>ed8c5918</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -288,7 +288,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>659ca965</spirit:value>
+            <spirit:value>e3c589e0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -304,7 +304,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>1347a0c5</spirit:value>
+            <spirit:value>bb594205</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -320,7 +320,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>0c90fe5d</spirit:value>
+            <spirit:value>6af29641</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -745,10 +745,6 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/hls_image_reducer_mac_muladd_18ns_17ns_26ns_34_4_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/hls_image_reducer_mux_32_7_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
@@ -800,11 +796,6 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/hls_image_reducer_mac_muladd_18ns_17ns_26ns_34_4_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/hls_image_reducer_mux_32_7_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
@@ -845,10 +836,6 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/hls_image_reducer_mac_muladd_18ns_17ns_26ns_34_4_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/vhdl/hls_image_reducer_mux_32_7_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
@@ -863,7 +850,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/hls_image_reducer.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_ab0d03d2</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_08b26b2c</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -875,11 +862,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/hls_image_reducer_hls_image_reducer_stream_stream_axis_ap_uint_8_1ul_1ul_1ul_0_plano_2_RAM_2P_BeOg.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/hls_image_reducer_mac_muladd_18ns_17ns_26ns_34_4_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -956,7 +938,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">7</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">4</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -973,8 +955,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Hls_image_reducer</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114888100</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-11-24T16:00:08Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2114889129</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2026-11-25T09:09:57Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -983,9 +965,9 @@
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2022.2.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="afe63738"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="f8c855d7"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="b81115a9"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="cf0bf1f1"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="670b7d75"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="086695f6"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>
