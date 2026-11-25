@@ -20,6 +20,11 @@
 // al invertir los canales, es decir, el IP anterior entregaba B,G,R. Poner 1 si TDATA[23:16] es el rojo real.
 // Orden de salida: 0 = planar R...,G...,B... (lo que espera la MLP: imagen_a_vector). 1 = píxel a píxel R,G,B,R,G,B... (NHWC, lo que espera
 // el IP de la CNN de FINN; la Transpose NCHW->NHWC del modelo padre se hace en la CPU, no en el IP).
+// 1 = reducción "bilineal" como el entrenamiento (cv2.INTER_LINEAR de 640x480 a 32x24): cada salida es la media de los 2x2 píxeles centrales (14 y 15) de su bloque de 30x30.
+// 0 = media de los 900 píxeles del bloque (INTER_AREA): distinta entrada para la red, que se entrenó con la bilineal (ver docs/flujo_finn_zybo.md).
+#ifndef REDUCCION_LINEAL
+#define REDUCCION_LINEAL 1
+#endif
 #ifndef SALIDA_HWC
 #define SALIDA_HWC 0
 #endif

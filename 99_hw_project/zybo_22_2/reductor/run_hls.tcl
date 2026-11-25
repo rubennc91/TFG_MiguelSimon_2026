@@ -4,6 +4,7 @@ open_project -reset proj
 set_top hls_image_reducer
 set cfl ""
 if {[info exists ::env(SALIDA_HWC)]} { append cfl " -DSALIDA_HWC=$::env(SALIDA_HWC)" }
+if {[info exists ::env(REDUCCION_LINEAL)]} { append cfl " -DREDUCCION_LINEAL=$::env(REDUCCION_LINEAL)" }
 if {[info exists ::env(USAR_TABLA)]} { append cfl " -DUSAR_TABLA=$::env(USAR_TABLA)" }
 add_files src/hls_image_reducer.cpp -cflags $cfl
 add_files src/hls_image_reducer.h

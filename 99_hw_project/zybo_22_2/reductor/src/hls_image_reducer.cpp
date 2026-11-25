@@ -1,7 +1,7 @@
 #include "hls_image_reducer.h"
 
 // Estructura (todo II=1, un píxel por ciclo):
-//  1) cada píxel de la franja central se suma a un acumulador de bloque (30 píxeles de ancho, 3 canales);
+//  1) cada píxel de la franja central se suma a un acumulador de bloque (30 píxeles de ancho, 3 canales); con REDUCCION_LINEAL solo los 2x2 centrales de cada bloque;
 //  2) al completar los 30 píxeles, la suma se añade a acc[canal][bloque] (memoria; un acceso cada 30 ciclos);
 //  3) al completar 30 líneas, un recorrido de 32 ciclos divide (multiplicación por la inversa) y escribe plano[canal][...] y borra acc;
 //  4) al terminar la trama, se envían los 3 planos por AXI-Stream (R, G, B).
@@ -55,7 +55,11 @@ void hls_image_reducer(hls::stream<stream_in_t>& stream_in, hls::stream<stream_o
     for (int c = 0; c < 3; c++) {
         ap_uint<18> a = acc[c][dir];
         if (copiando) {                              // paso 3: una columna (3 canales) por ciclo
+#if REDUCCION_LINEAL
+            ap_uint<36> m = (ap_uint<36>(a) + 2) >> 2;       // media de 4 píxeles, redondeada
+#else
             ap_uint<36> m = (ap_uint<36>(a) * DIV_MUL + (ap_uint<36>(1) << (DIV_SHIFT - 1))) >> DIV_SHIFT;
+#endif
 #if USAR_TABLA
             plano[c][oy_c * OUT_WIDTH + k] = TABLA_Q[(unsigned char)m];
 #else
@@ -63,14 +67,25 @@ void hls_image_reducer(hls::stream<stream_in_t>& stream_in, hls::stream<stream_o
 #endif
             acc[c][dir] = 0;
         } else if (fin_bloque) {                     // paso 2: suma del bloque completo (30 píxeles) a la fila de acumuladores
+#if REDUCCION_LINEAL
+            acc[c][dir] = a + blq[c];                     // blq solo suma los píxeles centrales; el último del bloque (bx = 29) no cuenta
+#else
             acc[c][dir] = a + blq[c] + p[c];
+#endif
         }
     }
     if (copiando) {
         if (k == OUT_WIDTH - 1) copiando = false; else k++;
     } else if (en_franja) {                          // paso 1
         if (fin_bloque) { blq[0] = 0; blq[1] = 0; blq[2] = 0; bx = 0; ox++; }
-        else { for (int c = 0; c < 3; c++) blq[c] += p[c]; bx++; }
+        else {
+#if REDUCCION_LINEAL
+            if ((bx == 14 || bx == 15) && (by == 14 || by == 15)) for (int c = 0; c < 3; c++) blq[c] += p[c];
+#else
+            for (int c = 0; c < 3; c++) blq[c] += p[c];
+#endif
+            bx++;
+        }
     }
 
     if (hay) {                                       // contadores de línea y trama

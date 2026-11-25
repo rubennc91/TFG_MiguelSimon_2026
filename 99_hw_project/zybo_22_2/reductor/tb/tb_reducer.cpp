@@ -40,12 +40,19 @@ int trama(hls::stream<stream_in_t>& in, hls::stream<stream_out_t>& out, unsigned
     }
     for (int c = 0; c < 3; c++) for (int oy = 0; oy < OUT_HEIGHT; oy++) for (int ox = 0; ox < OUT_WIDTH; ox++) {
         long sum = 0;
-        for (int y = 0; y < BLOCK; y++) for (int x = 0; x < BLOCK; x++) {
+#if REDUCCION_LINEAL
+        const int y0 = 14, y1 = 15, n_pix = 4;
+#else
+        const int y0 = 0, y1 = BLOCK - 1, n_pix = BLOCK * BLOCK;
+#endif
+        for (int y = y0; y <= y1; y++) for (int x = y0; x <= y1; x++) {
             int yy = oy * BLOCK + y, xx = CROP_X0 + ox * BLOCK + x;
             sum += c == 0 ? R[yy][xx] : c == 1 ? G[yy][xx] : B[yy][xx];
         }
-        int ref = (int)std::floor(sum / 900.0 + 0.5);
-        if (USAR_TABLA) ref = TABLA_Q[ref];
+        int ref = (int)std::floor(sum / (double)n_pix + 0.5);
+#if USAR_TABLA
+        ref = TABLA_Q[ref];
+#endif
         int d = std::abs(ref - sal[IDX(c, oy * OUT_WIDTH + ox)]);
         if (d > maxdif) maxdif = d; if (d) n++;
     }
