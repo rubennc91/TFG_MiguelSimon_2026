@@ -15,10 +15,14 @@
 #   MODO=holo       modelo del coche: ackermann (por defecto) o holo
 #   EXPERTO=1       en vez de la red, conduce el experto y graba el dataset (05_dataset/generador_experto);
 #                   EXPERTO_ARGS="--modo limpio --vueltas 1"; CIRCUITO=montmelo|montreal|...; SENTIDO=1|-1; DATOS=carpeta de salida
+#   SEMILLA=n       (con EXPERTO=1) desplaza y gira un poco la salida de forma reproducible, para repetir vueltas con variación
+#   ANTES_NODO="..."  órdenes de shell (en el anfitrión) que se ejecutan con el contenedor y Gazebo listos, justo antes de arrancar el controlador
 #   NODO="..."      con EXPERTO=1, otro nodo en lugar del generador (p. ej. python3 -m mlp_experto.lazo_cerrado ...)
 #   INSTANCIA=2     segunda simulación en paralelo (nombre de contenedor, dominio ROS y partición de Gazebo distintos)
 #   NO_GUI=1        no abrir ventanas (sin rqt_image_view ni xhost); útil por SSH
 #   GPU=0|1         forzar sin/con GPU (por defecto: con GPU solo si nvidia-smi funciona)
+#   RENDER_GPU=1    con GPU, el servidor de Gazebo renderiza la cámara con EGL en la GPU (--headless-rendering) en vez de llvmpipe por CPU;
+#                   solo con NO_GUI=1 (sin pantalla). Se activa por defecto si hay GPU y NO_GUI=1; RENDER_GPU=0 lo desactiva.
 #   FACTOR_LIN, FACTOR_ANG   factores lineal y angular del controlador (por defecto 1.0 y 0.30)
 set -u
 
@@ -116,6 +120,19 @@ arrancar() {
   mkdir -p "$DATOS"
   docker run -d --rm "${gpu[@]}" --network host "${pantalla[@]}" -e ROS_DOMAIN_ID=${INSTANCIA:-0} -e GZ_PARTITION=particion${INSTANCIA:-0} -e IGN_PARTITION=particion${INSTANCIA:-0} -v "$F1_WS:/f1_ws" -v "$REPO/05_dataset:/ds:ro" -v "$AQUI/mundos_extra:/mundos:ro" -v "$REPO/01_entrenamiento:/ent:ro" -v "$HOME/datasets:/datasets:ro" -v "$DATOS:/datos" \
     --entrypoint sleep --name "$CONT" "$IMG" infinity >/dev/null || { echo "No arrancó el contenedor."; exit 1; }
+  # Render de la cámara en la GPU sin pantalla: ros_gz_sim lanza `ruby $(which gz) sim ...`; un envoltorio en /usr/local/bin añade --headless-rendering al servidor (-s)
+  RENDER_GPU_ON=0
+  if [ ${#gpu[@]} -gt 0 ] && [ $gui = 0 ] && [ "${RENDER_GPU:-1}" = 1 ]; then
+    RENDER_GPU_ON=1
+    docker exec "$CONT" bash -c "cat > /usr/local/bin/gz <<'RB'
+#!/usr/bin/env ruby
+args = ARGV.dup
+args.insert(1, '--headless-rendering') if args[0] == 'sim' && args.include?('-s') && !args.include?('--headless-rendering')
+exec('/usr/bin/gz', *args)
+RB
+chmod +x /usr/local/bin/gz"
+    echo "  (render de la cámara en la GPU, EGL sin pantalla)"
+  fi
   local xv=""; [ $gui = 0 ] && xv="xvfb-run -a"
   local xv_coche="$xv"
   # Con --network host los sockets de X son compartidos entre contenedores y `-a` solo mira su propio /tmp: en otra instancia
@@ -134,10 +151,13 @@ arrancar() {
   local NPZ="$REPO/05_dataset/generador_experto/datos/circuitos/$CIRCUITO.npz"
   if [ "${EXPERTO:-0}" = 1 ]; then
     [ -f "$NPZ" ] || { echo "Falta $NPZ (extraer el circuito con python -m generador_experto.circuito)"; exit 1; }
-    POSE="$(python3 - "$NPZ" "$SENTIDO" <<'PY'
+    POSE="$(python3 - "$NPZ" "$SENTIDO" "${SEMILLA:-}" <<'PY'
 import sys, math, numpy as np
 d = np.load(sys.argv[1]); x, y, yaw = d["salida"]
 if int(sys.argv[2]) == -1: yaw += math.pi
+if sys.argv[3] != "":      # SEMILLA=n: salida desplazada de lado (+-0,4 m) y girada (+-0,12 rad) para medir la variación entre vueltas
+    r = np.random.default_rng(int(sys.argv[3])); lat, dyaw = r.uniform(-0.4, 0.4), r.uniform(-0.12, 0.12)
+    x, y, yaw = x - lat * math.sin(yaw), y + lat * math.cos(yaw), yaw + dyaw
 print(f"x:={x:.4f} y:={y:.4f} z:=0.001001 Y:={yaw:.5f}")
 PY
 )"
@@ -151,6 +171,7 @@ PY
   # Sin ventana de Gazebo la simulación arranca en pausa: se pone en marcha
   en_cont "gz service -s /world/default/control --reqtype gz.msgs.WorldControl --reptype gz.msgs.Boolean --timeout 3000 --req 'pause: false'" >/dev/null 2>&1
 
+  [ -n "${ANTES_NODO:-}" ] && eval "$ANTES_NODO"   # p. ej. servicios que el controlador necesita desde su primera consulta
   # 5. Controlador (o experto geométrico con EXPERTO=1)
   if [ "${EXPERTO:-0}" = 1 ]; then
     echo "[5/5] Generador del dataset: $CIRCUITO sentido $SENTIDO (${EXPERTO_ARGS:-sin argumentos})"

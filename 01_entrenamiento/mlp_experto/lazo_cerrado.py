@@ -160,6 +160,7 @@ class Lazo(Node):
                  resolucion=self.a.resolucion, v_max=self.a.v_max, suavizado=self.a.suavizado, n_modelos=len([r for r in self.a.pesos.split(',') if r]), factor_lin=self.a.factor_lin, factor_ang=self.a.factor_ang, hz=self.a.hz, retardo=self.a.retardo, pausa=self.a.pausa,
                  hz_efectiva=round(float(1 / np.median(np.diff(self.t_decs))), 2) if len(self.t_decs) > 2 else None,
                  latencia_servidor_s=dict(media=round(float(np.mean(self.lat_srv)), 3), p95=round(float(np.percentile(self.lat_srv, 95)), 3), max=round(float(np.max(self.lat_srv)), 3)) if self.lat_srv else None,
+                 latencias_altas_s=[[i, round(l, 2)] for i, l in enumerate(self.lat_srv) if l > 2.0],   # (n.º de consulta, s): dónde ocurren los picos
                  retraso_imagen_s=dict(media=round(float(np.mean(self.retraso_img)), 3), max=round(float(np.max(self.retraso_img)), 3)) if self.retraso_img else None)
         Path(f"{self.a.salida}.json").write_text(json.dumps(r, indent=2))
         self.get_logger().info("RESULTADO " + json.dumps(r))

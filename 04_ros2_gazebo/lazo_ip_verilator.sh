@@ -20,6 +20,19 @@ SRV_ARG="--servidor 127.0.0.1:$PUERTO"; [ "${HIL_EMULADO:-0}" = 1 ] && SRV_ARG="
 [ "${HIL_PLACA:-0}" = 1 ] && { SRV_ARG="--hil-tcp 127.0.0.1:5030"; TSRV=8; }
 PAUSA_ARG="--pausa"; [ "${SIN_PAUSA:-0}" = 1 ] && PAUSA_ARG=""
 OUT=/datos/lazo_cerrado/${RED}_ip_verilator${TAG:-}_${CIRCUITO}_s$([ "$SENTIDO" = 1 ] && echo +1 || echo -1)
+# El emulador/pasarela del HIL deben estar arriba antes de que el controlador haga su primera consulta (si no, las primeras ~10 esperan 8 s cada una)
+ANTES_NODO=$(cat <<BLOQUE
+if [ "${HIL_EMULADO:-0}" = 1 ]; then
+  docker exec f1_gazebo mkdir -p /tmp/hil; docker cp "$AQUI/herramientas/emulador_placa_hil.py" f1_gazebo:/tmp/hil/; docker cp "$REPO/99_hw_project/zybo_22_2/software/pynq_hil/reductor_ref.py" f1_gazebo:/tmp/hil/
+  docker exec -d f1_gazebo bash -c "source /opt/ros/humble/setup.bash; export ROS_DOMAIN_ID=0; python3 /tmp/hil/emulador_placa_hil.py --servidor 127.0.0.1:$PUERTO ${EMU_ARGS:-} > /tmp/emulador.log 2>&1"
+fi
+if [ "${HIL_PLACA:-0}" = 1 ]; then
+  docker exec f1_gazebo mkdir -p /tmp/hil; docker cp "$AQUI/herramientas/pasarela_hil.py" f1_gazebo:/tmp/hil/; docker cp "${CYCLONE_PC:-$AQUI/herramientas/cyclone_pc.xml}" f1_gazebo:/tmp/hil/cyclone_pc.xml
+  docker exec -d f1_gazebo bash -c "source /opt/ros/humble/setup.bash; export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp CYCLONEDDS_URI=file:///tmp/hil/cyclone_pc.xml; python3 /tmp/hil/pasarela_hil.py > /tmp/pasarela.log 2>&1"
+fi
+BLOQUE
+)
+export ANTES_NODO
 env CIRCUITO=$CIRCUITO SENTIDO=$SENTIDO DATOS=$DATOS EXPERTO=1 MODO=holo GAZEBO_GUI=1 ${PANTALLA:+PANTALLA=$PANTALLA} \
   NODO="python3 -m mlp_experto.lazo_cerrado $SRV_ARG --circuito $CIRCUITO --sentido $SENTIDO --resolucion 32x24 --factor-lin $FACTOR --factor-ang $FACTOR --vueltas $VUELTAS --hz $HZ --retardo $RETARDO $PAUSA_ARG --timeout-servidor ${TSRV:-300} --duracion 100000 --salida $OUT" \
   "$AQUI/lanzar_todo.sh" > "$DATOS/lanzar.log" 2>&1 || { tail -5 "$DATOS/lanzar.log"; exit 1; }
@@ -29,14 +42,6 @@ for _ in $(seq 1 60); do [ -s "$CSV" ] && break; sleep 1; done; sleep 10
 docker exec f1_gazebo bash -c 'for p in /proc/[0-9]*; do c=$(tr "\0" " " < $p/cmdline 2>/dev/null); case "$c" in *rqt_image_view*) kill ${p#/proc/};; esac; done'
 docker cp "$AQUI/herramientas/cam_sigue.py" f1_gazebo:/tmp/cam_sigue.py
 docker exec -d f1_gazebo bash -c "export GZ_PARTITION=particion0 IGN_PARTITION=particion0; python3 /tmp/cam_sigue.py $CAMARA > /tmp/cam_sigue.log 2>&1"
-if [ "${HIL_EMULADO:-0}" = 1 ]; then
-  docker exec f1_gazebo mkdir -p /tmp/hil; docker cp "$AQUI/herramientas/emulador_placa_hil.py" f1_gazebo:/tmp/hil/; docker cp "$REPO/99_hw_project/zybo_22_2/software/pynq_hil/reductor_ref.py" f1_gazebo:/tmp/hil/
-  docker exec -d f1_gazebo bash -c "source /opt/ros/humble/setup.bash; export ROS_DOMAIN_ID=0; python3 /tmp/hil/emulador_placa_hil.py --servidor 127.0.0.1:$PUERTO ${EMU_ARGS:-} > /tmp/emulador.log 2>&1"
-fi
-if [ "${HIL_PLACA:-0}" = 1 ]; then
-  docker exec f1_gazebo mkdir -p /tmp/hil; docker cp "$AQUI/herramientas/pasarela_hil.py" f1_gazebo:/tmp/hil/; docker cp "${CYCLONE_PC:-$AQUI/herramientas/cyclone_pc.xml}" f1_gazebo:/tmp/hil/cyclone_pc.xml
-  docker exec -d f1_gazebo bash -c "source /opt/ros/humble/setup.bash; export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp CYCLONEDDS_URI=file:///tmp/hil/cyclone_pc.xml; python3 /tmp/hil/pasarela_hil.py > /tmp/pasarela.log 2>&1"
-fi
 echo "[4/4] log del IP de FINN en Verilator (Ctrl+C para salir; el resultado queda en ${CSV%.csv}.json)"
 trap '"$AQUI/lanzar_todo.sh" stop >/dev/null 2>&1; "$NAT/lanzar_nativo.sh" stop "$PUERTO"; exit 0' INT TERM
 docker logs -f --tail 5 "nativo_$PUERTO" 2>&1 &

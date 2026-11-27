@@ -4,5 +4,5 @@
     <ParticipantIndex>auto</ParticipantIndex>
     <Peers><Peer address="192.168.50.2"/></Peers>
   </Discovery>
-  <Internal><SocketReceiveBufferSize min="128kB"/></Internal>
+  <Internal><SocketReceiveBufferSize min="8MB"/></Internal>
 </Domain></CycloneDDS>

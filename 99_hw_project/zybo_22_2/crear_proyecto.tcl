@@ -14,7 +14,7 @@ set hil [expr {[info exists ::env(HIL)] ? $::env(HIL) : 0}]                     
 set red [expr {[info exists ::env(RED)] ? $::env(RED) : "ninguna"}]                    ;# ninguna | cnn | mlp: IP de FINN que se integra tras el reductor (exige VARIANTE=sin_hdmi)
 set reductor_repo [expr {[info exists ::env(REDUCTOR_REPO)] ? $::env(REDUCTOR_REPO) : ($red eq "ninguna" ? "reductor" : "reductor_$red")}]   ;# reductor (planar) | reductor_hwc (CNN, sin tabla) | reductor_cnn / reductor_mlp (con tabla de entrada)
 if {$red ne "ninguna" && $variante ne "sin_hdmi"} { puts "ERROR: RED=$red exige VARIANTE=sin_hdmi"; exit 1 }
-set_property ip_repo_paths [list $aqui/fuentes/ip_repo/local $aqui/fuentes/ip_repo/digilent_ip $aqui/fuentes/ip_repo/digilent_if $aqui/fuentes/ip_repo/$reductor_repo {*}[expr {$red eq "ninguna" ? {} : [list $aqui/fuentes/ip_repo/finn_$red]}]] [current_project]
+set_property ip_repo_paths [list $aqui/fuentes/ip_repo/local $aqui/fuentes/ip_repo/digilent_ip $aqui/fuentes/ip_repo/digilent_if $aqui/fuentes/ip_repo/$reductor_repo {*}[expr {$red eq "ninguna" ? {} : [list [expr {[info exists ::env(FINN_REPO)] ? $::env(FINN_REPO) : "$aqui/fuentes/ip_repo/finn_$red"}]]}]] [current_project]
 update_ip_catalog
 add_files -norecurse [concat [glob $aqui/fuentes/hdl/*.vhd] [glob -nocomplain $aqui/fuentes/hdl/*.v]]
 if {$variante eq "sin_hdmi"} {
